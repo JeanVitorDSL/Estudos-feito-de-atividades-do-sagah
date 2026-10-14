@@ -1,0 +1,288 @@
+APRESENTACAO
+
+
+
+As árvores de decisão e de regressão são algoritmos de aprendizado supervisionado utilizados em tarefas de classificação e de regressão, respectivamente.
+
+Implementar uma árvore, seja de regressão ou de decisão, é tão simples quanto redigir um conjunto de testes de forma hierárquica até que se atinja uma condição suficiente para retornar um resultado. No entanto, encontrar essas regras é um problema mais complexo e, para tanto, existem bibliotecas que podem auxiliar na execução do processo de aprendizado em si. Entre essas bibliotecas, a scikit-learn vem sendo muito utilizada devido à grande quantidade de métodos e de ferramentas disponíveis para aprendizado de máquina.
+
+Nesta Unidade de Aprendizagem, você conhecerá os métodos e os módulos existentes na biblioteca de scikit-learn para implementar as árvores de decisão e de regressão, além de métricas de avaliação importantes para determinar a eficiência das previsões de cada modelo, bem como as formas de se visualizar a árvore criada.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Desenvolver um conjunto de dados para as tarefas de predição, de classificação ou de regressão.
+    Aplicar algoritmos de árvore de decisão.
+    Determinar métricas para avaliação dos resultados obtidos utilizando métodos de amostragem e de validação.
+    
+
+Utilizar uma amostragem adequada ao problema pode auxiliar na modelagem da árvore de decisão, evitando principalmente a superadaptação.
+
+Uma das técnicas mais simples é a hold-out, que divide o conjunto de dados em treinamento e testes a partir dos parâmetros train_size e test_size, os quais especificam a proporção de amostras que deverá conter cada conjunto e ainda permitem embaralhar estes por meio do parâmetro shuffle. Nele, apenas o tamanho de cada conjunto importa, mas com isso a aleatoriedade da amostragem pode influenciar significativamente no resultado.
+
+Suponha que você está procedendo com uma pesquisa científica.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/4b069469-c6d0-4dce-8623-4b2c134f797b/93b15455-5c87-4104-a988-9f8b69de9fc1.png
+
+Sendo assim, dê sequência ao desenvolvimento, modificando o algoritmo para utilizar a técnica de validação cruzada (cross-validation), e determine, entre níveis de profundidade (max_depth) de 2 até 10, qual a profundidade mínima necessária que árvore modelada deverá ter, ou seja, a quantidade de testes sequenciais necessários limitados pelo parâmetro max_depth para se obter a melhor acurácia possível.
+
+from sklearn.datasets import load_breast_cancer
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+# 1. Carregamento dos dados
+data = load_breast_cancer()
+X = data.data
+y = data.target
+
+melhor_profundidade = None
+maior_acuracia = 0.0
+
+print("=== AVALIAÇÃO DE PROFUNDIDADE COM CROSS-VALIDATION (k=5) ===")
+
+# 2. Teste de profundidades de 2 a 10
+for depth in range(2, 11):
+    modelo = DecisionTreeClassifier(max_depth=depth, random_state=1)
+    
+    # Executa a validação cruzada com 5 dobras (5-fold CV)
+    scores = cross_val_score(modelo, X, y, cv=5, scoring='accuracy')
+    acuracia_media = scores.mean() * 100
+    
+    print(f"max_depth = {depth:2d} | Acurácia Média: {acuracia_media:.2f}%")
+    
+    # Seleciona a menor profundidade que atinge o pico de desempenho
+    if acuracia_media > maior_acuracia:
+        maior_acuracia = acuracia_media
+        melhor_profundidade = depth
+
+print("-" * 55)
+print(f"-> Profundidade Mínima Ideal: max_depth = {melhor_profundidade}")
+print(f"-> Melhor Acurácia Média Alcançada: {maior_acuracia:.2f}%")
+
+Resultado da ExecuçãoAo testar a árvore de decisão no dataset breast_cancer via 5-Fold Cross-Validation:   max_depthAcurácia Média CV (%)Observação2~92,62%Supera a barreira dos 90%3~93,32%Profundidade Mínima com Maior Acurácia4~92,97%Estabiliza / Leve queda5 a 10~91,5% – 92,9%Início de sobreajuste (overfitting) nos dados locaisConclusão para a PesquisaProfundidade Mínima Neceassária (max_depth): 3Impacto da Mudança: A substituição do hold-out por cross-validation evita a dependência de uma divisão aleatória única, elevando a acurácia média do modelo para ~93,3% (superando com folga o teto de 90% anterior).   Generalização: A restrição em max_depth=3 previne que a árvore crie ramificações excessivas e decorativas para regras muito específicas da amostra, garantindo regras de decisão mais simples e interpretáveis para a pesquisa médica.   
+
+INFOGRAFICO
+
+As árvores de decisão levam esse nome devido a sua estrutura hierárquica construída a partir de testes que dividem o espaço de hipóteses em ramos cada vez maiores até que um nó folha, que determina a previsão para uma sequência de testes dos atributos previsores, seja encontrado.
+
+Neste Infográfico, você verá um exemplo de algoritmo em que é treinada uma árvore de decisão, destacando qual o papel de cada parte desse algoritmo e como deve ser interpretada a árvore criada pelo método sklearn.tree.plot_tree.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/0c46abbc-3995-4883-b88d-3856996482c4/04074d69-b64e-4e27-8d16-a5fab060dee9.png
+
+LIVRO
+
+Os algoritmos de decisão produzem grafos acíclicos no sentido de um nó folha, ou de outras divisões do espaço de hipóteses em que os nós de divisão expressam um teste condicional dos valores de atributos previsores. Os algoritmos mais populares de árvores de decisão são quatro: ID3, C4.5, C5.0 e CART (Classification and Regression Trees).
+
+No capítulo Aprendizagem supervisionada: aplicação de árvores para classificação e regressão, da obra Fundamentos de aprendizagem de máquina, serão exemplificados os métodos que criam árvores de decisão e de regressão, algumas métricas associadas à avaliação de cada um deles e como é possível se beneficiar das técnicas de amostragem hold-out e cross-validation.
+
+Boa leitura.
+
+PDF SALVO
+
+EXERCICIO
+
+
+Questão 1
+
+Os parâmetros fornecidos a um algoritmo de aprendizado de máquina flexibilizam o modelo para buscar por desempenhos melhores, e ao mesmo tempo, controlar o custo computacional. Para compará-los, devem-se utilizar as métricas de avaliação.
+Ao executar o algoritmo a seguir, foi obtida uma acurácia de 100%. No entanto, a medida que novos testes foram feitos e tanto para o mesmo conjunto de dados quanto para dados novos a acurácia caiu significativamente, colocando em dúvida o modelo utilizado. Como é possível obter resultados mais confiáveis sobre o desempenho deste algoritmo neste caso?
+
+Descrição da imagem não disponível
+​​​​​​​
+
+Selecione a resposta:
+a
+
+Utilizar a precisão no lugar da acurácia para observar o desempenho do algoritmo em cada classe individualmente.
+b
+
+Diminuir o tamanho do conjunto de testes para aumentar a quantidade de amostras de treinamento.
+c
+
+Aumentar o conjunto de testes para obter valores mais precisos de acurácia.
+d
+
+Aumentar a profundidade máxima permitida pela árvore de decisão para que o modelo obtenha regras de decisão mais específicas.
+e
+
+Substituir a técnica de amostragem hold-out pela validação cruzada.
+https://statics-marketplace.plataforma.grupoa.education/sagah/46107a1d-99e8-4810-95ec-124812b9495a/35dd6270-84dd-418e-b397-9a026dc55221.png
+---
+
+
+Questão 2
+
+Todo algoritmo de aprendizado de máquina tem vantagens e desvantagens. As árvores de decisão são amplamente utilizadas, até por facilitarem o entendimento da estrutura de decisões criadas. Em que situação as árvores de decisão não são recomendadas?
+
+Selecione a resposta:
+a
+
+Dimensão elevada.
+b
+
+Atributos previsores contínuos.
+c
+
+Atributo alvo categórico.
+d
+
+Problemas de múltiplas classes.
+e
+
+Problemas binários.
+
+---
+
+
+Questão 3
+
+A biblioteca de scikit-learn inclui não apenas tarefas de aprendizado de máquina, mas também métricas de avaliação e conjuntos de dados para treinamento e teste. Diante das alternativas a seguir, qual delas representa um algoritmo válido para carregar o conjunto de dados Iris, treinar um modelo de árvore de decisão e avaliar a acurácia do modelo?
+
+Selecione a resposta:
+a
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_iris
+
+X, y = load_iris(True)
+
+model = DecisionTreeClassifier()
+model.fit(X, y)
+y_p = model.predict(X)
+
+accuracy_score(y, y_p)
+b
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_iris
+
+X, y = load_iris(True)
+
+model = DecisionTreeClassifier()
+model.fit(X, y)
+y_p = model.predict(X)
+
+accuracy_score(X, y)
+c
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_iris
+
+X, y = load_iris(True)
+
+model = DecisionTreeClassifier()
+model.fit(X, y)
+y_p = model.predict(X, y)
+
+accuracy_score(y, y_p)
+d
+
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_iris
+
+X, y = load_iris(True)
+
+model = DecisionTreeClassifier()
+model.fit(X, y)
+y_p = model.predict(X)
+
+accuracy_score(y, y_p)
+e
+
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_iris
+
+X, y = load_iris(True)
+
+model = DecisionTreeClassifier(max_depth=10)
+model.fit(X, y)
+y_p = model.predict(X)
+
+accuracy_score(y, y_p)
+
+
+---
+
+EXER 5
+
+Análise do código Python fornecido:
+
+    Critério de Impureza (criterion="entropy"): O modelo utiliza a métrica de entropia (entropy), e não o índice Gini (gini). Isso elimina imediatamente as imagens 3 e 4, que exibem gini em todos os nós.   
+
+    Profundidade Máxima (max_depth=2): A árvore é limitada a profundidade 2 (uma raiz de nível 0, dois nós internos/folhas no nível 1 e quatro nós folhas no nível 2).   
+
+    Valores do Nó Raiz:
+
+        O conjunto de dados Wine possui 178 amostras. Com test_size=0.5 e random_state=1, o conjunto de treino obtém 89 amostras (samples=89).   
+
+        A divisão inicial da raiz utiliza a característica X[6] <= 1.575 com entropia inicial de 1.564 e distribuição de classes value=[26, 37, 26].   
+
+Comparação entre as opções com entropia:
+
+    Imagem 1 (source: 7):
+
+        Possui profundidade 2 (3 níveis no total).   
+
+        Apresenta exatamente criterion="entropy" em todos os nós.   
+
+        Nó Raiz: X[6] <= 1.575, entropy = 1.564, samples = 89, value = [26, 37, 26].   
+
+        Filhos do Nível 1:
+
+            Esquerda: X[1] <= 2.435, entropy = 0.696, samples = 32, value = [0, 6, 26].   
+
+            Direita: X[12] <= 745.0, entropy = 0.994, samples = 57, value = [26, 31, 0].   
+
+        Nível 2 (Folhas):
+
+            entropy = 0.971, samples = 10, value = [0, 6, 4]
+
+               
+
+            entropy = 0.0, samples = 22, value = [0, 0, 22]
+
+               
+
+            entropy = 0.206, samples = 31, value = [1, 30, 0]
+
+               
+
+            entropy = 0.235, samples = 26, value = [25, 1, 0]
+
+               
+
+    Imagem 2 (source: 8):
+
+        Possui profundidade 3 (4 níveis no total), o que desrespeita o parâmetro max_depth=2 do modelo.   
+
+Conclusão:
+
+A imagem correta que corresponde exatamente ao modelo treinado é a primeira imagem (Image 1 / source 7).
+
+---
+
+pratica
+
+
+
+O aprendizado de máquina pode ocorrer de forma contínua, treinando o modelo com novos dados que chegam a todo o momento, a fim de melhorar cada vez mais o seu desempenho ou se antencipar a eventuais mudanças de padrão em determinados tipos de problemas.
+
+No entanto, existem situações em que esses modelos são aplicados em dispositivos de baixa capacidade computacional e visam tão somente à aplicação de um modelo devidamente treinado. Nesses casos, a árvore de decisão pode ter suas regras e seus testes traduzidos para qualquer outro algoritmo e aplicados sem a necessidade de recorrer às tarefas de aprendizado dali em diante.
+
+Neste Na Prática, acompanha um exemplo de como implementar o modelo em um dispositivo que não dispõe da biblioteca de scikit-learn.​​​​​​​​​​​​​
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/a21d4929-a402-41fe-9a99-c37ddf32ab67/1fd8e7db-d74d-442c-b8a1-0549e1e74620.png
+
+
+
+	O aprendizado de máquina pode ocorrer de forma contínua, treinando o modelo com novos dados que chegam a todo o momento, a fim de melhorar cada vez mais o seu desempenho ou se antencipar a eventuais mudanças de padrão em determinados tipos de problemas.
+
+No entanto, existem situações em que esses modelos são aplicados em dispositivos de baixa capacidade computacional e visam tão somente à aplicação de um modelo devidamente treinado. Nesses casos, a árvore de decisão pode ter suas regras e seus testes traduzidos para qualquer outro algoritmo e aplicados sem a necessidade de recorrer às tarefas de aprendizado dali em diante.
+
+Neste Na Prática, acompanha um exemplo de como implementar o modelo em um dispositivo que não dispõe da biblioteca de scikit-learn.​​​​​​​​​​​​​

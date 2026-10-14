@@ -1,0 +1,243 @@
+APRESENTACAO
+
+No dia a dia, tarefas são organizadas de forma prática para facilitar a rotina, economizar tempo e conseguir entregá-las. Pense, por exemplo, quando você cria um “roteiro” para resolver algo, como organizar seus estudos ou seguir um passo a passo para montar um móvel, chegar no horário em uma entrevista de emprego. Na programação, isso também acontece: são usadas as funções para agrupar instruções que podem ser reutilizadas sempre que necessário. Assim, é possível resolver problemas de forma mais rápida e organizada, evitando repetir código várias vezes.
+
+Além disso, imagine que você está lidando com diferentes objetos do cotidiano, como um celular ou um livro, cada um com suas características e comportamentos. Em Python, esse conceito é representado pelas classes, que permitem estruturar os dados e definir comportamentos associados a eles. Dessa forma, funções e classes trabalham juntas, tornando o código mais organizado, reutilizável e alinhado aos conceitos da programação orientada a objetos (Nunes, 2024).
+
+Nesta Unidade de Aprendizagem, você vai conhecer os conceitos fundamentais de funções e classes em Python, compreendendo como criar funções, definir classes e desenvolver programas utilizando os princípios da programação orientada a objetos. Ao final, você vai ser capaz de reconhecer a criação de funções no Python, definir classes e desenvolver programas orientados a objetos, aplicando esses conceitos em diferentes situações.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Reconhecer a criação de funções no Python.
+    Definir classes no Python.
+    Desenvolver programas orientados a objetos no Python.
+    
+    
+DESAFIO 
+
+No desenvolvimento de um novo produto, o projetista precisa garantir que suas dimensões estejam corretas antes da fabricação, evitando erros que podem comprometer a funcionalidade, a segurança e o desempenho do que é oferecido ao cliente. Para isso, é necessário realizar cálculos geométricos com precisão, além de testar diferentes configurações de tamanho e posicionamento. Em um sistema computacional, todo o processo de análise pode ser feito por meio da programação orientada a objetos, permitindo representar o produto e simular suas características.
+
+Nesse contexto, confira a situação a seguir:
+
+https://creator-files.plataforma.grupoa.education/learning-object/55406/20609_EXA_DES_V0-2026-07-26T22:47:18-03:00.png
+
+Com base nesse cenário:
+
+a) Modele, em Python, a abstração do pneu como uma classe que represente um círculo, contendo os atributos necessários para armazenar seu posicionamento (x, y) e seu raio.
+
+b) Implemente métodos que permitam calcular a área, o diâmetro e o comprimento da circunferência, além de um método que possibilite alterar a posição do pneu no plano cartesiano, simulando ajustes no projeto.
+
+c) Crie um objeto a partir da classe e teste o funcionamento dos métodos implementados, verificando se os cálculos estão corretos para apoiar a tomada de decisão do projetista.
+
+--- INFOGRAFICO
+
+	Praticamente todas as linguagens de programação utilizadas atualmente oferecem suporte ao uso de funções, que permitem organizar o código em blocos reutilizáveis, tornando a solução de problemas mais estruturada e eficiente. Para trabalhar com programação, é importante saber que as funções facilitam a leitura, a manutenção e a reutilização de um código, servindo como base para diferentes projetos.
+
+No contexto da linguagem Python, as funções se destacam por sua sintaxe simples e intuitiva, o que as torna especialmente acessíveis para profissionais iniciantes, que ainda estão se familiarizando com a estrutura de um código. Diferente de outras linguagens, o Python não exige declarações formais e detalhadas, e sim define funções de forma mais direta, favorecendo a aprendizagem e a experimentação. As possibilidades são ampliadas ao utilizar Python para a criação de projetos e seu uso reforça sua importância na construção de programas mais flexíveis e organizados (Downey, 2021).
+
+Neste Infográfico, você vai entender como as funções são utilizadas na prática em Python e compreender seus principais tipos e elementos, bem como os argumentos locais e globais e o uso de variáveis.
+
+https://creator-files.plataforma.grupoa.education/learning-object/55407/20609_EXA_INF_V0-2026-07-26T22:47:32-03:00.png
+
+LIVRO
+
+
+
+O estudo da linguagem Python tem se tornado cada vez mais importante para profissionais da área de tecnologia. Mesmo com a sintaxe simples, é uma linguagem de programação poderosa e que permite criar códigos e projetos de software diversos, além de ter se expandido para a análise de dados e automação de processos. Caracteriza-se principalmente pela ampla aplicabilidade em diferentes contextos profissionais. Além disso, compreender conceitos fundamentais como funções e classes é essencial para a construção de sistemas mais organizados, reutilizáveis e eficientes, atendendo às demandas do mercado atual.
+
+No contexto da programação orientada a objetos, Python oferece suporte completo aos conceitos tradicionais, como classes, atributos e métodos, permitindo a representação de elementos do mundo real em programas computacionais. De acordo com Barry e Griffiths (2010), o domínio desses conceitos contribui significativamente para o desenvolvimento de soluções mais estruturadas e facilita a evolução do aprendizado em programação, abrangendo desde princípios básicos até aplicações mais complexas.
+
+No capítulo Introdução ao Python II, base teórica desta Unidade de Aprendizagem, você vai aprofundar seus conhecimentos sobre funções e classes em Python e compreender como esses recursos são aplicados na prática.
+
+Boa leitura.
+
+PDF SALVO
+
+EXERCICIO
+
+
+Questão 1
+
+Funções em programação podem ser comparadas às cenas de um filme dentro de um roteiro. Em uma produção cinematográfica, cada cena possui uma responsabilidade específica e contribui para o desenvolvimento da narrativa, podendo ser reutilizada em diferentes contextos de edição ou montagem da obra. De forma semelhante, na programação, funções são blocos de código que executam tarefas específicas dentro de um sistema, permitindo a organização do programa em partes menores.
+
+Com base nesse conceito e na aplicação de funções em programação, assinale a afirmação correta.
+Selecione a resposta:
+a
+
+As funções são utilizadas principalmente para organizar trechos do código relacionados a uma mesma tarefa, contribuindo para sua estruturação, mas sua reutilização depende do contexto de desenvolvimento.
+b
+
+As funções permitem dividir o programa em partes menores, favorecendo a organização do código, embora sua principal finalidade seja limitar a quantidade de instruções em cada arquivo.
+c
+
+Funções têm como principais objetivos reutilizar o código e facilitar a manutenção do sistema.
+d
+
+As funções são empregadas para agrupar instruções relacionadas, sendo mais indicadas em programas extensos do que em aplicações de pequeno porte.
+e
+
+A criação de funções é uma prática voltada principalmente para melhorar a legibilidade do código, podendo dispensar outras estratégias de organização do sistema.
+
+---
+
+
+Questão 2
+
+As variáveis em Python podem existir em diferentes escopos, sendo o escopo global aquele em que a variável é declarada fora de funções, e o escopo local aquele em que a variável é criada dentro de uma função. Em alguns casos, utiliza-se a palavra-chave global para permitir que uma função modifique uma variável definida no escopo global. Nesse contexto, considere o código a seguir: 
+
+contador_total = 0  # variável global
+
+def processar_dados(lista):
+    contador_local = 0  # variável local
+    global contador_total
+
+    for item in lista:
+        if item > 10:
+            contador_local += 1
+            contador_total += 1
+
+    return contador_local
+
+resultado = processar_dados([5, 12, 18, 3, 25])
+
+No código apresentado, a variável contador_total foi declarada como global dentro da função.
+
+Assinale a alternativa que justifica corretamente esse uso.
+Selecione a resposta:
+a
+
+A definição global foi utilizada para permitir que a função modifique uma variável que existe fora do escopo local, atualizando seu valor ao longo da execução do programa.
+b
+
+A definição da variável global foi utilizada para que o conteúdo da variável não seja executado somente em um contexto de leitura pela função.
+c
+
+Essa definição de global é para indicar que a variável não terá seu valor alterado durante a execução da função.
+d
+
+A definição global faz parte da sintaxe da linguagem Python, sendo comum em qualquer função que utilize variáveis externas.
+e
+
+A definição global é obrigatória para todas as variáveis que são manipuladas por uma função.
+
+---
+
+03
+
+Objetos são instâncias de classes na programação orientada a objetos e utilizados com base de códigos em Python como recursos de suporte às funções. Uma classe funciona como um molde, enquanto os objetos representam as ocorrências concretas criadas a partir desse molde.
+
+A Programação Orientada a Objetos organiza os sistemas por meio de classes e objetos. As classes representam modelos ou abstrações de entidades do mundo real, enquanto os objetos correspondem às instâncias criadas a partir desses modelos, cada uma com seus próprios atributos e comportamentos.
+
+Considere as afirmações a seguir e marque V nas afirmações verdadeiras e F nas falsas.
+
+I. Em um código, é possível ter uma classe para cada animal que necessite ser cadastrado.
+II. É possível ter um objeto para cada tipo de animal que necessite ser cadastrado.
+III. Uma classe e um objeto para cada animal que necessite ser cadastrado no sistema.
+IV. Uma classe para representar animal e um objeto para representar cada animal a ser cadastrado no sistema.
+V. Um objeto e diversas classes animais para representar os diversos animais a serem cadastrados no sistema.
+
+Assinale a alternativa que apresenta a sequência correta.
+Selecione a resposta:
+a
+
+F – F – F – V – V
+b
+
+F – V – F – F – F
+c
+
+V– V – F – V – F
+d
+
+F – F – F – V – F
+e
+
+F – F – F – F – V
+
+---
+
+
+Questão 4
+
+Em Programação Orientada a Objetos, um dos conceitos fundamentais é o encapsulamento, recurso utilizado para proteger os dados internos de uma classe e estabelecer o controle de acesso aos seus atributos. O Python é uma linguagem amplamente utilizada que se baseia neste paradigma, realizando o controle por meio de modificadores de acesso ou convenções de nomenclatura.
+
+Considere as seguintes afirmações sobre os modificadores utilizados na estrutura de código escrita em Python:
+
+I. Em Python, o encapsulamento de atributos pode ser indicado pelo uso de dois underscores (__) antes do nome da variável, como forma de sugerir que o atributo não deve ser acessado diretamente fora da classe.
+
+PORQUE
+
+II. Em Python, diferentemente de outras abordagens, não existe o modificador de acesso private, sendo o controle de visibilidade baseado em convenções de nomenclatura, enquanto o uso de private em outras linguagens é obrigatório para garantir o encapsulamento.
+Selecione a resposta:
+a
+
+As afirmações I e II são verdadeiras, e a II justifica a I.
+b
+
+As afirmações I e II são verdadeiras, mas a II não justifica I.
+c
+
+A afirmação I é verdadeira, e a II é falsa.
+d
+
+A afirmação I é falsa, e a II é verdadeira.
+e
+
+As afirmações I e II são falsas.
+
+---
+
+	Em um sistema de controle nutricional de uma plataforma oferecida para que os usuários acompanhem seus aspectos relacionados à saúde, foi criada uma classe para representar uma refeição balanceada, na qual são registradas as pontuações nutricionais de diferentes alimentos consumidos ao longo do dia. A partir dessas informações, o sistema calcula uma média de qualidade nutricional da refeição.
+
+Considere a classe a seguir:
+
+class Refeicao:
+    def __init__(self, cafe, almoco, lanche, jantar):
+        self.cafe = cafe
+        self.almoco = almoco
+        self.lanche = lanche
+        self.jantar = jantar
+
+    def calcula_media(self):
+        return (self.cafe + self.almoco + self.lanche + self.jantar) / 4
+
+
+Essa classe e seu método podem ser testados utilizando o seguinte código:
+
+r = Refeicao(5, 6, 7, 8)
+m = r.calcula_media()
+print(m)
+
+Com base no código apresentado, assinale a alternativa que indica uma afirmação correta sobre a classe Refeicao.
+Selecione a resposta:
+a
+
+A classe Refeicao não permite a criação de objetos, pois métodos de cálculo impedem a instanciação da classe.
+b
+
+O método calcula_media() é responsável por armazenar os valores das variáveis de instância dentro do objeto.
+c
+
+A classe Refeicao impede a passagem de parâmetros no momento da criação do objeto, exigindo que os valores sejam definidos apenas dentro dos métodos.
+d
+
+A função fecha_media corresponde ao conceito de um método privado em Python.
+e
+
+O objeto r criado a partir da classe Refeicao é uma instância que permite acessar atributos e executar o método de cálculo da média nutricional.
+
+
+---
+
+NA PRATICA
+
+Trabalhar com frameworks de desenvolvimento é uma boa prática na área de tecnologia, pois permite acelerar o processo de criação de sistemas, promovendo maior organização, produtividade e padronização no código. Frameworks como o Django incorporam conceitos avançados de programação, como a orientação a objetos, possibilitando a construção de aplicações mais robustas e escaláveis.
+
+No contexto da linguagem Python, o Django foi criado para facilitar o desenvolvimento de aplicações web de forma rápida e segura. Ao surgir em meados dos anos 2000, ainda possuía algumas limitações e foi inicialmente criado para atender às demandas de um portal jornalístico, o que exigia agilidade na criação e manutenção de sistemas dinâmicos. De acordo com Bendoraitis (2020), o Django foi baseado fortemente nos princípios da programação orientada a objetos, o framework organiza o código em componentes reutilizáveis, permitindo estruturar aplicações de maneira eficiente e alinhada às boas práticas de desenvolvimento.
+
+Neste Na Prática, você vai entender como o desenvolvimento de um cenário de aplicação do framework Django pode contribuir para solucionar problemas que envolvem o gerenciamento de dados de fornecedores em um sistema de cadastro. 
+
+https://creator-files.plataforma.grupoa.education/learning-object/55411/capa-2026-07-26T22:47:52-03:00.png
+
+

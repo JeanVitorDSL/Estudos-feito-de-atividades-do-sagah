@@ -1,0 +1,139 @@
+(CONTEÚDOS DO SAGAH)
+
+APRESENTAÇÃO
+
+Os fatores motivadores da governança de TI trazem assuntos primordiais para que possamos entender o motivo pelo qual a sua aplicação é tão importante para o universo corporativo. Como você acha que as grandes corporações mantêm todos os seus processos em desenvolvimento de forma harmoniosa? Você sabia que a governança de TI contribui também para a cadeia lucrativa da empresa e pode até estar relacionada com as atividades desenvolvidas pelos Recursos Humanos?
+
+Nesta Unidade de Aprendizagem, você verá que os recursos tecnológicos nos auxiliam na execução de toda essa demanda e a governança de TI traz diversas metodologias para que isso ocorra de forma efetiva. Você estudará também os principais fatores que motivam a aplicação da governança em TI em uma organização empresarial, além do contexto onde a mesma está incluída e como a área de negócios está integrada à área tecnológica.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Reconhecer a importância da tecnologia no contexto corporativo.
+    Definir os principais aspectos de uso da governança em TI.
+    Descrever os aspectos da área corporativa e o uso de recursos tecnológicos. 
+
+INFOGRAFICO 
+
+Assim como quase tudo ao nosso redor, a Tecnologia da Informação e o universo corporativo passaram por diversas mudanças e, se formos parar para analisar, foram para melhor, agora podemos fazer uso desses recursos para executar diversas atividades em nosso cotidiano. Porém, nem sempre foi assim e vale a pena sabermos um pouco mais sobre como alguns aspectos do contexto corporativo começaram a ser associados ao uso de tecnologias.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/ea30a62a-d558-4ffa-8b24-97dc5a415139/6ec76528-1338-4df7-9db7-ccef6171d99a.jpg
+
+
+NA PRATICA (ATIVIDADE)
+Como vivemos em uma era tecnológica, os impactos causados pela tecnologia no cotidiano de uma corporação podem ser marcantes, tanto de forma positiva, quanto negativa. Veja a seguir exemplos de setores onde esse impacto pode ser visualizado.
+https://statics-marketplace.plataforma.grupoa.education/sagah/e6e79721-4de4-4212-bd88-482941a05b70/7d6a6736-3441-4877-8383-33dffa234cc0.jpg
+
+
+PERGUNTAS (5 PERGUNTAS PARA RESPONDER )
+
+A tecnologia pode ser vista como método ou técnica relacionada a uma atividade específica, e está inserida no contexto humano desde a descoberta do fogo. Podemos dizer que em meados da década de 40, ao ser inserida no contexto corporativo o sistema de informação trouxe diversas vantagens, como:
+
+Selecione a resposta:
+a
+
+Gerenciamento de dados e acesso a recursos mais baratos.
+b
+
+Eficácia na produção, metodologias gerenciais e gerenciamento de dados.
+c
+
+Acesso à internet, aquisição de equipamentos de produção e distribuição de recursos financeiros.
+d
+
+Metodologias gerenciais, acesso à internet e redução do preço dos sistemas de informação.
+e
+
+Acesso à recursos baratos e simples de serem aplicados e utilizados nas empresas. 
+
+---
+
+
+
+Sobre a definição de processo, assinale a alternativa correta:
+
+Selecione a resposta:
+a
+
+É a definição dos padrões de um projeto tecnológico.
+b
+
+É a definição do uso dos recursos financeiros de uma corporação.
+c
+
+É a definição dos dados de entrada e processamento de um sistema.
+d
+
+É a definição de procedimentos que norteiam a produção ou execução de algo específico.
+e
+
+É a definição de máquinas e recursos tecnológicos que serão utilizados na empresa. 
+
+---
+
+Assinale a alternativa que traz conceitos relacionados às principais funções de um sistema de informação.
+
+Selecione a resposta:
+a
+
+Entrada, saída de dados e feedback.
+b
+
+Leitura, entrada e saída de dados.
+c
+
+Entrada, leitura e saída de dados e feedback.
+d
+
+Processamento, leitura, entrada e saída de dados.
+e
+
+Entrada, processamento, saída de dados e feedback. 
+
+---
+
+Qual componente tecnológico está associado à realização da análise de rotinas que foram desenvolvidas para a realização de atividades específicas?
+
+Selecione a resposta:
+a
+
+Dados.
+b
+
+Processamento.
+c
+
+Software.
+d
+
+Rede.
+e
+
+Procedimento. 
+
+---
+
+
+
+Assinale a alternativa que traz um dos serviços que pode ser desempenhado automaticamente por um sistema de informação em um contexto corporativo.
+
+Selecione a resposta:
+a
+
+Seleção e contratação de funcionários.
+b
+
+Determinação de recursos físicos.
+c
+
+Armazenamento de recursos financeiros.
+d
+
+Definição de estratégias operacionais.
+e
+
+Processamento de informações e geração de relatórios com alta precisão e em alta velocidade. 
+
+---
+
+

@@ -1,0 +1,222 @@
+APRESENTACAO 
+
+Dentre as linguagens de programação mais famosas da atualidade, está o Python, que surgiu no início da década de 1990 com os objetivos de servir ao ensino de programação e de tornar a atividade de codificação de programas algo mais fácil e intuitivo, de menos complexidade.
+​​​​​​​Dos anos 90 para os dias de hoje, o Python evoluiu muito em suas versões, passou de uma linguagem controlada principalmente pelo seu criador para as mãos de uma comunidade imensa de desenvolvedores ao redor do mundo (que tratam do sustento da marca e da expansão da linguagem no mercado) e passou a lutar por espaço com outras linguagens conhecidas, como PHP e Java, competindo com sua versatilidade e aplicabilidade.
+
+Nesta Unidade de Aprendizagem, você vai estudar a respeito da história do Python e compreender que é muito fácil de instalar a linguagem e algumas de suas IDEs. Você vai conhecer também as diferenças básicas entre os mais diversos tipos de ferramentas de implementação em Python.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Descrever a evolução histórica do Python.
+    Instalar o Python e ferramentas para desenvolvimento.
+    Diferenciar as ferramentas de implementação do Python.
+
+DESAFIO
+
+Existem inúmeras linguagens de programação disponíveis no mercado, mas o Python, sem dúvida, é uma das linguagens mais importantes e difundidas da atualidade, uma vez que conta com uma grande e sólida comunidade de desenvolvedores, tanto no Brasil quanto no exterior, além de ser gratuita, intuitiva e simples, mas, ao mesmo tempo, elegante, proporcionando o desenvolvimento rápido de aplicações.
+
+
+Sua tarefa, então, é instalar o Python e, utilizando a IDE Idle, que já vem embarcada no pacote, comprovar que tudo foi instalado corretamente, apresentando uma tela com o resultado da divisão de 1.024 por 2 e, ainda, a mensagem “eu estudo Python”.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/90559f9f-d4f8-40b3-a380-4a9fac76fc86/e6e1215f-6a88-4c19-b78e-2941d4a001ff.png
+
+RESPOSTA
+
+1. Execução no IDLE (Modo Interativo - Python Shell)
+
+Ao abrir o IDLE, você verá o prompt interativo >>>. É possível digitar as instruções diretamente:
+Python
+
+>>> 1024 / 2
+512.0
+>>> print("eu estudo Python")
+eu estudo Python
+
+2. Execução via Script/Arquivo (.py)
+
+Caso a atividade solicite a criação de um arquivo de código (File > New File no IDLE):
+Python
+
+# Script de validação da instalação
+divisao = 1024 / 2
+mensagem = "eu estudo Python"
+
+print(divisao)
+print(mensagem)
+
+Resultado exibido na tela ao pressionar F5 (Run):
+Plaintext
+
+512.0
+eu estudo Python
+
+INFOGRAFICO
+
+O Python surgiu para ser utilizado no ensino da programação, por leigos em computação e para a linguagem ser produtiva e de fácil leitura. A linguagem é gratuita, interpretada e de alto nível, se mostrando excelente para o desenvolvimento rápido de aplicações.
+Atualmente, essa é uma das linguagens mais utilizadas pelos desenvolvedores, pois é orientada a objetos, tem tipagem dinâmica e forte, é multiplataforma e, além de tudo, não é preciso pagar para utilizá-la.
+
+Veja, no Infográfico a seguir, a ilustração sobre a evolução histórica do Python.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/6411c98d-0a94-40d8-a344-f309da0e604e/b04bee06-6c83-464b-9262-e3a76c58b8df.png
+
+
+
+EXERCICIOS
+
+CONTEUDO DO LIVRO
+
+A maneira de escolher uma linguagem de programação é muito pessoal de cada desenvolvedor, mas algumas características do Python a tornam muito atraente, tais como a facilidade e a legibilidade do código, a alta produtividade proporcionada, a portabilidade e a integração dos recursos e componentes e, ainda, o vasto conteúdo oferecido pela comunidade de desenvolvedores de Python no mundo todo.
+
+O Python é relativamente novo, tendo sido criado por volta do início da década de 1990, mas já está consolidado como uma linguagem de fácil aprendizagem, tipagem forte e possibilidade de desenvolvimento para web e desktop. Além disso, há o fato de ser multiplataforma, o que atrai desenvolvedores adeptos dos mais diversos sistemas operacionais. Aqueles que optam pelo Python ainda desfrutam da facilidade de ter inúmeros editores de texto, IDEs, ferramentas de refatoração e outras tantas ferramentas de teste e suporte ao desenvolvimento de sistema, tornando a tarefa de codificar mais fácil e permitindo que o programador se envolva apenas com a lógica e os objetivos de sua aplicação.
+
+No capítulo Python e ambientes de desenvolvimento, da obra Programação Back End I, você vai estudar a história do Python, as diferenças básicas entre as suas diversas ferramentas de desenvolvimento e, ainda, a maneira fácil e rápida de instalar essa a linguagem e algumas de suas IDEs.
+
+Boa leitura.
+
+SALVO NO PDF
+
+EXERCICIO 
+Questão 1
+
+Uma das características do Python é permitir que o programador tenha foco na lógica de programação e nos objetivos que deseja atingir com o desenvolvimento de sua aplicação. Isso acontece porque a sintaxe é facilitada e os recursos são intuitivos, dispensando conhecimento específico a respeito de aspectos internos, da arquitetura da linguagem e da estrutura de programação.
+
+Atualmente, o Python segue em releases da versão 3.0. Qual é a peculiaridade dessa versão?
+
+Selecione a resposta:
+a
+
+Ter sido lançada na década de 1990.
+b
+
+Ser compatível com todas as versões anteriores.
+c
+
+Ser incompatível com a versão 2.0.
+d
+
+Ter sido financiada pela Zope.
+e
+
+Ser totalmente compatível apenas com a versão 2.0.
+
+---
+
+ 
+                  Questão 2
+                
+ 
+
+  
+
+  A
+ linguagem de programação Python foi criada pelo matemático Guido van 
+Rossum, que escolheu esse nome com o intuito de homenagear a série de 
+programas humorísticos Monty Python, do qual era fã. 
+Sendo assim, por que a capa do primeiro livro de programação em Python estampou uma cobra da espécie píton?
+ 
+            Selecione a resposta:
+          
+  a 
+ Porque a editora que iria lançar o livro sugeriu a figura na capa.
+  
+ b 
+ Porque Guido resolveu mudar o significado do símbolo do Python para uma cobra.
+  
+ c 
+ Porque a mudança de símbolo demonstraria a seriedade que Guido pretendia com o surgimento da linguagem.
+  
+ d 
+ Porque a figura de cobra traria a ideia da força e da complexidade de codificação do Python.
+  
+ e 
+ Porque a mudança de símbolo foi um marco na venda da propriedade intelectual da linguagem para a comunidade de desenvolvedores.
+ 
+ ---
+ 
+ 
+Questão 3
+
+A linguagem de programação Python é uma excelente ferramenta para construir aplicações de todos os tipos, inclusive aquelas que se beneficiam do uso da Matemática, como relatórios, gráficos e estatísticas em geral, por ser muito intuitiva e amigável.
+
+Pensando nisso, qual é o comando correto para apresentar o resultado da soma entre os números -2 e 15 na IDE Idle?
+
+Selecione a resposta:
+a
+
+>>> math (- 2 + 15).
+b
+
+>>> exiba (- 2 + 15).
+c
+
+>>> sum (- 2 + 15).
+d
+
+>>> calculate - 2 + 15.
+e
+
+>>> - 2 + 15.
+
+---
+
+
+Questão 4
+
+O Python é uma linguagem de programação que surgiu com o objetivo de ser fácil e legível, para a utilização de usuários de todos os níveis de conhecimento, mas principalmente os iniciantes e leigos. Muitos são os ambientes integrados de desenvolvimento (IDEs) que fornecem inúmeros recursos para auxiliar os programadores na tarefa de codificar suas aplicações.
+
+Dentre esses ambientes, qual deles vem embutido no pacote do Python e é instalado automaticamente com a linguagem?
+
+Selecione a resposta:
+a
+
+Eclipse.
+b
+
+Idle.
+c
+
+PyCharm.
+d
+
+Wing.
+e
+
+
+---
+
+
+Questão 5
+
+A PyCharm é uma IDE gratuita para Python, desenvolvida pela JetBrains, sob licença da Apache. Essa IDE é multiplataforma e fornece diversos recursos importantes para desenvolver em Python, além suportar desenvolvimento para aplicações web com o Django.
+
+Sabendo que a PyCharm não vem embarcada no pacote de instalação do Python, quais são os requisitos para sua instalação?
+
+Selecione a resposta:
+a
+
+Permissão de administrador; 10 mb disponíveis no disco rígido.
+b
+
+Permissão de consulta via terminal remoto; IDE Wing pré-instalada.
+c
+
+Permissão de leitura e gravação no disco rígido; Java e antivírus pré-instalados.
+d
+
+Permissão de administrador e Python pré-instalados.
+e
+
+Permissão de leitura no disco rígido; Windows e PHP pré-instalados.
+
+---
+
+NA PRATICA
+
+
+A linguagem de programação Python foi criada como uma forma de apresentar uma ferramenta de codificação de sistemas mais facilitada e legível, para que usuários leigos pudessem desenvolver suas próprias aplicações. Existem muitas IDEs para Python, que surgiram como forma de auxiliar os desenvolvedores na tarefa de codificar seus programas.
+Uma IDE envolve um ambiente de desenvolvimento integrado de software, ou seja, é um programa de computador que foi criado para auxiliar os desenvolvedores a criarem seus próprios programas.
+
+Veja a seguir uma situação prática sobre o Python e as ferramentas de desenvolvimento.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/db211dd3-0121-4c14-b3bd-6ef9f3fea094/ca0a8f68-7288-44c1-b0fc-22b4787706b6.png

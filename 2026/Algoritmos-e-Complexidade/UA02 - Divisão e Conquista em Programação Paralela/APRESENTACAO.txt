@@ -1,0 +1,239 @@
+APRESENTACAO 
+
+Com o constante avanço tecnológico, o mundo tornou-se digital quase que por completo. Tanto na área pessoal quanto na profissional, dispositivos computacionais se fazem presentes, seja para simples compras on-line, compartilhamento de dados, acesso a redes sociais ou processos industriais complexos, incluindo áreas de saúde, educação e pesquisas.
+
+Dessa forma, um incontável número de dados é gerado por segundo no mundo todo, necessitando de softwares complexos para seu processamento, sendo fundamental o uso de soluções cada vez mais rápidas e que resolvam problemas que envolvam essa grande quantidade de dados. Assim, o desenvolvimento de tecnologias voltadas para a área da computação paralela é fundamental.
+
+A programação paralela, mais especificamente, se refere à capacidade de realização de processamento de uma mesma tarefa utilizando diferentes recursos computacionais ao mesmo tempo, reduzindo seu tempo de execução. Um dos paradigmas da programação paralela é a chamada divisão e conquista.
+
+Nesta Unidade de Aprendizagem, você vai saber o que significa a técnica de divisão e conquista na programação paralela, indicando seus conceitos e importância para a computação. Também vai ver os principais métodos para atingir a divisão e conquista na resolução de grandes problemas, bem como técnicas que podem ser utilizadas para a identificação de pontos de divisão e conquista.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Conceituar divisão e conquista em programação paralela.
+    Descrever métodos de divisão e conquista.
+    Identificar casos de divisão e conquistas.
+
+DESAFIO
+
+As abordagens de dividir e conquistar e a programação dinâmica têm certas semelhanças, já que ambas dividem problemas maiores em subproblemas menores para que sejam resolvidos. No entanto, existem diferenças que não podem ser ignoradas, por não ser possível sua aplicação em uma mesma situação.
+
+Acompanhe:
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/106a1728-b7b7-4caa-a233-d9ecdd6dbef6/b7249c94-feea-4eed-9dd5-3646af1250f2.jpg
+
+Qual abordagem deve ser utilizada para essa pesquisa em seu código de programação: divisão e conquista ou programação dinâmica? Justifique.
+
+
+Diferenças Fundamentais e Justificativa
+1. Divisão e Conquista (Aproximação Adequada)
+
+    Como funciona: O problema principal é dividido em subproblemas independentes e disjuntos. A cada etapa, o espaço de busca é descartado pela metade e foca-se apenas na metade restante.
+
+    Aplicação na Busca Binária: Ao comparar o elemento central com o alvo, a busca descarta totalmente uma das metades e continua na outra. Como os subproblemas gerados não se sobrepõem, aplica-se a estratégia clássica de Divisão e Conquista.
+
+2. Programação Dinâmica (Não Aplicável)
+
+    Como funciona: É projetada para resolver problemas que possuem subproblemas sobrepostos (onde os mesmos subproblemas são recalculados várias vezes) e subestrutura ótima. Ela utiliza memoização ou tabelamento para reaproveitar resultados já calculados.
+
+    Por que não se aplica aqui: Na Pesquisa Binária, cada intervalo de busca examinado é único e nunca precisamos "revisitar" ou reutilizar soluções de subintervalos calculados anteriormente. Não há sobreposição de subproblemas.
+
+Resumo
+
+    Abordagem recomendada: Divisão e Conquista.
+    
+    
+INFOGRAFICO
+
+
+A abordagem de dividir e conquistar é uma das técnicas mais comuns de computação paralela, em que o processamento de uma tarefa complexa é feito por meio de sucessivas divisões da tarefa executada, ou seja, um problema é dividido em subproblemas até que possam ser resolvidos de maneira direta. Dessa forma, os resultados dos subproblemas são combinados até que se obtenha o resultado do problema original.
+
+Sendo assim, essa técnica pode ser confundida com a abordagem de programação dinâmica. Por isso, neste Infográfico, você vai conhecer a diferença entre esses dois métodos.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/b47c7e83-6871-4e90-b665-c71d49c2fe16/e2ea1f7b-4954-406e-9af2-232c7848bbaf.jpg
+
+	
+DESAFIO
+
+O avanço tecnológico é constante, fazendo parte do dia a dia da sociedade, tanto em questões pessoais como, principalmente, profissionais. Dessa forma, praticamente todas as áreas se utilizam do poder tecnológico para a execução de seus processos. Com isso, computadores mais potentes e sistemas complexos são cada vez mais necessários.
+
+Para se obter maior desempenho desses sistemas em multiprocessadores ou processadores multicore, é usada a programação paralela, que permite que uma grande tarefa seja dividida em partes menores, de modo que sejam executadas simultaneamente, tornando os processos mais rápidos. A divisão e conquista é uma das técnicas que realizam esse processo de forma eficiente.
+
+No capítulo Divisão e conquista em programação paralela, base teórica desta Unidade de Aprendizagem, você vai ver como essa abordagem funciona e sua importância. Além disso, também vai conhecer os principais métodos de execução de divisão e conquista e as técnicas para identificar seu uso.
+
+Boa leitura.
+
+PDF SALVO
+
+
+NA PRATICA
+
+Os algoritmos de divisão e conquista são utilizados para a resolução de grandes problemas de maneira mais eficiente. Por meio deles, o problema é dividido em subproblemas menores, semelhantes ao original. Esses subproblemas são resolvidos recursivamente e, após isso, os sub-resultados são combinados até que seja gerada uma solução para o problema original. Essa é uma técnica de programação paralela muito importante.
+
+Você vai ver, Na Prática, um código escrito em Python para encontrar os elementos mínimo e máximo em uma matriz, utilizando divisão e conquista.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/43fda7f8-7cbe-4b3e-9e22-472c44148059/874a5256-ebe0-47aa-9d4b-204c367c000b.jpg
+
+
+
+EXERCICIOS
+
+
+ 
+                  Questão 1
+                
+ 
+
+  
+
+  O
+ termo programação paralela pode ser utilizado em conjunto com 
+computação paralela, pois se refere a sistemas de alta eficiência. A 
+programação paralela é o processo que decompõe um problema em tarefas 
+menores, de modo que sejam executadas simultaneamente, utilizando vários
+ recursos de computação. 
+Dessa forma, é possível afirmar que:
+I.
+ utilizando a programação paralela, as tarefas podem ser paralelizadas, 
+sendo executadas ao mesmo tempo, a partir do uso de mais computadores ou
+ vários núcleos de um processador;
+II. a programação paralela é importante para grandes projetos, que demandam velocidade e precisão;
+III.
+ mesmo sendo uma tarefa complexa, a programação paralela é fundamental, 
+pois permite que desenvolvedores, pesquisadores e usuários consigam 
+realizar pesquisas e análises de maneira mais rápida e eficiente, se 
+comparada a programas que processam somente uma tarefa por vez;
+IV.
+ a programação paralela, apesar de ser uma tarefa simples, é muito 
+importante, pois permite que desenvolvedores, pesquisadores e usuários 
+consigam realizar pesquisas e análises de maneira mais rápida e 
+eficiente, se comparada a programas que processam somente uma tarefa por
+ vez.
+Quais afirmativas estão corretas?
+ 
+            Selecione a resposta:
+          
+  a 
+ I, II, III e IV.
+  
+ b 
+ I, II e III.
+  
+ c 
+ I, II e IV.
+  
+ d 
+ II e IV.
+  
+ e 
+ I e IV.
+
+---
+
+
+
+Questão 2
+
+Hardwick (1997) afirma que o método de divisão e conquista é a técnica mais conhecida de projetos de algoritmos, pois permite resolver de maneira mais simples um problema maior.
+
+Sendo assim, assinale a alternativa correta.
+
+Selecione a resposta:
+a
+
+Os subproblemas são instâncias do mesmo problema, podendo ser expressos de forma única.
+b
+
+É importante que um algoritmo diferente possa ser aplicado aos subproblemas do problema original.
+c
+
+É necessária uma fase de combinação, para que o problema seja dividido em subproblemas.
+d
+
+Soluções são combinadas de duas em duas, repetindo o processo até que se encontrem soluções distintas.
+e
+
+Dividir e conquistar pode ser considerada uma variante da técnica de programação de cima para baixo mais geral.
+
+---
+
+
+Questão 3
+
+Entre os modelos de aplicação da programação paralela, o mais comum é o divid-and-conquer (divisão e conquista). Hardwick (1997) afirma que o método de divisão e conquista é a técnica mais conhecida de projetos de algoritmos, já que permite resolver de maneira mais simples um problema maior.
+
+Esse algoritmo funciona seguindo um plano que ocorre na seguinte ordem:
+
+Selecione a resposta:
+a
+
+dividir, combinar, conquistar e apresentar.
+b
+
+combinar, dividir, conquistar e apresentar.
+c
+
+dividir, conquistar e combinar.
+d
+
+combinar, conquistar e dividir.
+e
+
+conquistar, combinar e dividir.
+
+---
+
+
+Questão 4
+
+O pseudocódigo é utilizado como referência para outros métodos, que podem diferenciar algoritmos de divisão e conquista para sua implementação em arquiteturas paralelas.
+
+Assinale a alternativa que contém os métodos de divisão e conquista em programação paralela presentes na literatura, de acordo com Hardwik (1997).
+
+Selecione a resposta:
+a
+
+Fator de ramificação; equilíbrio; divisibilidade embaraçosa; dependência de dados da função de combinar; dependência de dados da função de tamanho; paralelismo ou sequencialidade de controle; e paralelismo de dados.
+b
+
+Fator de ramificação; equilíbrio; divisibilidade embaraçosa; dependência de dados da função de dividir; dependência de dados da função de tamanho; paralelismo ou sequencialidade de controle; e paralelismo de dados.
+c
+
+Fator de ramificação; equilíbrio; divisibilidade embaraçosa; dependência de dados da função de conquistar; dependência de dados da função de tamanho; paralelismo ou sequencialidade de controle; e paralelismo de dados.
+d
+
+Fator de ramificação; equilíbrio; divisibilidade embaraçosa; dependência de dados da função de conquistar; dependência de dados da função de combinar; paralelismo ou sequencialidade de controle; e paralelismo de dados.
+e
+
+Fator de ramificação; equilíbrio; divisibilidade embaraçosa; dependência de dados da função de dividir; dependência de dados da função de combinar; paralelismo ou sequencialidade de controle; e paralelismo de dados.
+
+---
+
+
+Questão 5
+
+Quando o tamanho total dos subproblemas de um algoritmo de divisão e conquista tem algum nível de dependência dos dados de entrada, ele vai ter uma função de tamanho dependente dos dados. Com isso, esse algoritmo forma uma subclasse. Esse modelo de algoritmo adiciona ou descarta elementos, baseando-se nos dados de entrada, para tentar reduzir o tamanho do problema.
+
+Assinale a alternativa que se refere ao método de dependência de dados da função de tamanho.
+
+Selecione a resposta:
+a
+
+Número de subproblemas em que um problema é dividido. Esse pode ser considerado o grau de recursão e uma forma de classificar os algoritmos.
+b
+
+Apresenta a vantagem de não necessitar de balanceamento de carga, ou seja, com o número de processadores sendo uma potência do fator de ramificação.
+c
+
+Nesse caso, o problema pode ser dividido entre dois ou mais subproblemas de maneira imediata, não exigindo movimento extra de dados na etapa de divisão.
+d
+
+Geralmente, está presente no estágio de divisão, que é baseado em estrutura ou valor, podendo ser implementado paralelamente aos dados.
+e
+
+Podem ser mais complexos para implementação, pois os desequilíbrios de carga podem surgir na quantidade total dos dados em um processador. 
+
+---
+
+

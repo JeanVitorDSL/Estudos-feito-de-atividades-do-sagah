@@ -1,0 +1,181 @@
+APRESENTAÇÃO 
+
+A governança corporativa surgiu como uma forma de orientar e controlar processos internos das organizações, assim como alinhá-los com outros aspectos do negócio, buscando assegurar transparência, responsabilidade e conformidade aos setores empresariais, sejam eles tecnológicos ou corporativos. Nesse contexto, a tecnologia da informação passou a destacar-se nas organizações modernas, aprimorando mecanismos, a criação de rotinas e tarefas específicas para garantir que os recursos tecnológicos apoiem os objetivos institucionais de maneira eficiente, segura e sustentável.
+
+Segundo Information Systems Audit and Control Association (ISACA, 2012), a governança de TI é responsável por assegurar que a tecnologia agregue valor ao negócio ao mesmo tempo em que reduz riscos e otimiza recursos. O termo "governança de TI" teve origem a partir da governança corporativa, mas não se deve confundi-los, já que a governança de TI apresenta relação direta com a gestão e o gerenciamento de recursos de TI, não sendo, contudo, a mesma coisa. Além disso, a governança em TI engloba diversos aspectos de uma organização, envolvendo diretrizes estratégicas, definição de responsabilidades, controle de riscos, conformidade e monitoramento de desempenho. Assim, atua como um desdobramento da governança corporativa, garantindo que as decisões relacionadas à tecnologia estejam alinhadas às estratégias institucionais e aos interesses organizacionais.
+
+Nesta Unidade de Aprendizagem, você vai estudar os objetivos que norteiam a governança de TI, responsável pela gestão de todas as atividades relacionadas à tecnologia dentro das organizações. Você também aprenderá a relação existente entre o âmbito corporativo e a governança, além das normas, dos frameworks e das boas práticas que compõem esse contexto e auxiliam na tomada de decisões estratégicas em TI.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Identificar a relação da governança corporativa com a governança de TI a fim de compreender seus objetivos.
+    Descrever as normas da governança de TI.
+    Reconhecer as boas práticas da governança de TI.
+
+INFOGRAFICO
+
+As organizações modernas fazem o uso da tecnologia da informação para apoiar processos operacionais, estratégicos e gerenciais. É difícil manter um negócio corporativo sem o uso de sistemas computacionais, processos automatizados, armazenamento e tratamento de dados. Sendo assim, a governança de TI surge como um conjunto de práticas e mecanismos voltados ao alinhamento entre tecnologia e negócio para garantir que os recursos tecnológicos sejam utilizados de forma eficiente, segura e alinhada aos objetivos organizacionais. Ao tratar desses recursos com base em suas cinco principais áreas de foco, a governança contribui para o alinhamento estratégico, a redução de riscos, a melhoria do desempenho organizacional e a geração de valor para a empresa (Palmeira, 2026).
+
+As áreas de foco da governança de TI representam dimensões fundamentais para garantir a efetividade da tecnologia nas organizações. Entre elas, destacam-se o alinhamento estratégico entre TI e negócio, a entrega de valor, a gestão de riscos, a gestão de recursos tecnológicos e o monitoramento de desempenho. Esses elementos permitem que a organização mantenha controle sobre seus processos, melhore a tomada de decisões e fortaleça sua capacidade de adaptação às demandas do mercado.
+
+Neste Infográfico, você vai observar como cada uma das cinco principais áreas de foco da governança de TI contribuem para que a organização mantenha seus processos tecnológicos alinhados às necessidades do negócio.
+
+https://creator-files.plataforma.grupoa.education/learning-object/7815/14347_EXA_INF_V2-2026-05-28T22:01:40-03:00.jpg
+
+LIVRO
+
+A governança de TI nem sempre esteve presente nas organizações, que notaram a necessidade real de direcionar o uso da tecnologia da informação de forma alinhada aos objetivos corporativos, principalmente pensando nas práticas de mercado, normativas e exigências de seus clientes, tanto como os direitos. Para isso, além de apoiar a tomada de decisões, a governança de TI se fortaleceu, sendo essencial no ambiente corporativo, passando a contribuir com a gestão de riscos, a conformidade regulatória, a segurança da informação e a melhoria contínua dos processos organizacionais. 
+
+Do ponto de vista técnico, a governança de TI envolve a definição de controles internos, políticas de segurança da informação, gestão de riscos, monitoramento de desempenho, gestão de recursos tecnológicos e alinhamento estratégico entre TI e negócio, processos constantemente auditados e que, quando fora de conformidade, podem gerar prejuízos e advertências até que estejam alinhados com o mercado. A governança de TI tem como foco “o direcionamento e o monitoramento das práticas de gestão e uso da TI de uma organização”, auxiliando as empresas na definição de processos, responsabilidades e mecanismos de controle capazes de apoiar os objetivos corporativos e reduzir riscos relacionados ao uso da tecnologia.
+
+No capítulo Objetivos da governança de TI, base teórica desta Unidade de Aprendizagem, você vai compreender a relação desses objetivos com a governança corporativa, as normas aplicáveis, os marcos regulatórios e as boas práticas utilizadas pelas organizações. Nesse contexto, empresas de diferentes segmentos utilizam práticas, normas e metodologias para garantir maior eficiência operacional, transparência e geração de valor ao negócio.
+
+Boa leitura.
+
+EXERCÍCIOS
+
+
+Questão 1
+
+Entre as funções relacionadas ao contexto organizacional e tecnológico, algumas têm foco operacional, enquanto outras assumem um papel mais estratégico, voltado à definição de diretrizes, ao monitoramento e ao controle.
+
+
+Assinale a alternativa que corresponde à função responsável por estabelecer diretrizes e acompanhar o uso da tecnologia da informação de forma alinhada aos objetivos do negócio.
+Selecione a resposta:
+a
+
+Gestão de serviços de TI.
+b
+
+Planejamento estratégico corporativo.
+c
+
+Governança de TI.
+d
+
+Governança corporativa.
+e
+
+Governança empresarial.
+
+---
+
+
+Questão 2
+
+A governança corporativa envolve um conjunto de princípios e práticas voltados à direção e ao controle das organizações, influenciando a forma como decisões são tomadas e como os diferentes interesses são equilibrados. A governança de TI é marcada por características e aspectos que permitem o alinhamento dos objetivos do negócio e a tecnologia, mas outras responsabilidades e princípios são associados à sua adoção dentro das organizações.
+
+
+Com base nesse contexto, analise as afirmativas a seguir:
+
+
+    A transparência e a prestação de contas fazem parte dos princípios da governança corporativa.
+    A governança corporativa defende o tratamento igualitário entre acionistas e partes interessadas.
+    O alinhamento estratégico de recursos tecnológicos e a gestão operacional de infraestrutura de TI são princípios exclusivos da governança corporativa.
+
+
+É correto o que se afirma em:
+Selecione a resposta:
+a
+
+I e II apenas.
+b
+
+I, II e III.
+c
+
+III apenas.
+
+
+d
+
+I e III apenas.
+
+
+e
+
+II apenas.
+
+---
+
+
+Questão 3
+A governança de TI envolve práticas que contribuem para a integração entre tecnologia e negócios, promovendo maior controle, continuidade e eficiência organizacional.
+
+Com base nesse contexto, analise as asserções a seguir e a relação proposta entre elas:
+
+
+I. A governança de TI promove o alinhamento da arquitetura tecnológica (infraestrutura, sistemas e recursos).
+
+
+PORQUE
+
+
+II. A governança de TI busca assegurar que os recursos tecnológicos estejam alinhados aos objetivos organizacionais.
+
+
+Assinale a alternativa correta.
+Selecione a resposta:
+a
+
+As asserções I e II são falsas.
+b
+As asserções I e II são verdadeiras, e a II justifica a I.
+c
+
+A asserção I é verdadeira, e a II é falsa.
+d
+
+As asserções I e II são verdadeiras, mas a II não justifica a I.
+e
+
+A asserção I é falsa, e a II é verdadeira.
+
+---
+
+
+Questão 4
+
+No contexto organizacional, diferentes práticas são adotadas para garantir que as estratégias empresariais sejam efetivamente apoiadas pelos recursos tecnológicos. Cada uma das práticas é adotada com objetivos específicos considerando sua estrutura, componentes e boas práticas de aplicação,  servindo como ferramenta para que as organizações aprimorem seus produtos e serviços, com foco no objetivo e no resultado final a ser alcançado.
+
+
+Assinale a alternativa que corresponde à prática voltada especificamente à integração entre estratégias de TI e objetivos do negócio.
+Selecione a resposta:
+a
+
+Governança empresarial: prática de gestão que estabelece diretrizes e mecanismos para a condução da organização como um todo, envolvendo liderança, controle e transparência, sem foco exclusivo na integração entre tecnologia e estratégia de negócio.
+
+b
+
+Governança corporativa: conjunto de princípios e práticas voltados à relação entre acionistas, gestores e demais stakeholders, assegurando transparência, equidade e prestação de contas na gestão organizacional.
+
+
+c
+
+Estruturação de processos: atividade relacionada à organização e à padronização de fluxos de trabalho internos, com foco na eficiência operacional, mas sem necessariamente promover o alinhamento entre TI e os objetivos estratégicos da organização.
+
+
+d
+
+Governança de TI: conjunto de práticas e frameworks voltados à gestão e ao controle dos recursos tecnológicos, garantindo que a TI sustente e amplie os objetivos do negócio por meio de diretrizes, métricas e conformidade.
+
+
+e
+
+Alinhamento estratégico: prática que visa a assegurar a integração entre as estratégias de tecnologia da informação e os objetivos organizacionais, garantindo que investimentos e decisões em TI estejam diretamente orientados à geração de valor e ao desempenho do negócio.
+
+
+---
+
+ATIVIDADE PRATICA
+
+A governança de TI tem um papel estratégico dentro das organizações, sendo responsável por direcionar o uso da tecnologia da informação de forma alinhada aos objetivos corporativos. Além de apoiar os processos organizacionais, a governança contribui para a segurança das informações, o controle de riscos, a conformidade regulatória e a melhoria do desempenho operacional. Dessa forma, as empresas utilizam práticas de governança para garantir maior eficiência, transparência e geração de valor ao negócio.
+
+Do ponto de vista técnico, a governança de TI envolve atividades relacionadas ao alinhamento estratégico entre TI e negócio, gestão de riscos, monitoramento de desempenho, definição de controles internos, gestão de recursos tecnológicos e continuidade dos serviços. Segundo Fernandes e Abreu (2012), o principal objetivo da governança de TI é alinhar a tecnologia da informação aos requisitos do negócio, garantindo suporte às operações corporativas e minimizando riscos relacionados ao uso dos recursos tecnológicos. Nesse contexto, políticas, processos e mecanismos de controle auxiliam as organizações na padronização das atividades e no fortalecimento da segurança e da conformidade operacional.
+
+Neste Na Prática, você vai observar de que forma as atividades estão relacionadas à governança de TI em cenários reais e como essas ações podem contribuir para a segurança, o controle e a eficiência dos processos organizacionais.
+
+https://creator-files.plataforma.grupoa.education/learning-object/7819/CAPA-2026-05-29T10:42:06-03:00.png
+
+

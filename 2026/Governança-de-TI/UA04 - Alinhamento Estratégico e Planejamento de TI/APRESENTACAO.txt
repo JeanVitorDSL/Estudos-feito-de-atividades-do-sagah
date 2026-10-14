@@ -1,0 +1,204 @@
+APRESENTACAO
+
+Em contextos organizacionais, as decisões relacionadas à gestão, aos processos internos e à segurança da informação dependem cada vez mais do uso de recursos tecnológicos. Atualmente, as empresas utilizam a tecnologia em diferentes atividades essenciais ao seu funcionamento, como gestão de estoques, emissão de notas fiscais, processamento da folha de pagamento e proteção de dados. Em um mercado cada vez mais competitivo, que exige ações rápidas, a tecnologia torna-se um recurso indispensável para a eficiência e a continuidade das operações.
+
+De acordo com Laudon e Laudon (2021), os sistemas de informação passaram a ocupar uma posição estratégica nas organizações, uma vez que apoiam a tomada de decisão, integram processos internos e ampliam a capacidade competitiva das empresas em ambientes marcados por mudanças constantes. Nesse cenário, a tecnologia da informação deixa de exercer função exclusivamente operacional e passa a contribuir diretamente para o alcance de metas institucionais, a inovação de serviços e a geração de valor organizacional.
+
+Nesta Unidade de Aprendizagem, você vai entender como o alinhamento estratégico pode trabalhar em conjunto com as regras de negócios de determinada corporação empresarial. Além disso, vai conhecer o planejamento realizado diante da tecnologia da informação e explorar aspectos relevantes que exaltam a dependência dos negócio em relação aos recursos tecnológicos.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Reconhecer o papel da governança de TI.
+    Identificar o planejamento da TI e seu impacto nos negócios.
+    Comparar as ações do negócio quanto à sua dependência da TI.
+    
+INFOGRAFICO
+
+A governança de tecnologia da informação tornou-se elemento estratégico nas organizações contemporâneas, especialmente em cenários marcados por competitividade, transformação digital e necessidade de respostas rápidas ao mercado. Nesse contexto, a tecnologia deixou de atuar apenas como suporte operacional e passou a influenciar diretamente produtividade, inovação, segurança da informação e qualidade dos processos internos.
+
+Quando novos recursos tecnológicos são incorporados ao ambiente empresarial, seus efeitos não se limitam à implantação de sistemas ou equipamentos. Mudanças tecnológicas impactam estruturas organizacionais, formas de trabalho, qualificação profissional, cultura interna e modelos de gestão. De acordo com Laudon e Laudon (2021), decisões relacionadas à TI precisam considerar fatores humanos, organizacionais e estratégicos para gerar resultados consistentes.
+
+Neste Infográfico, você vai observar as transformações apresentadas antes, durante e depois da adoção de novas tecnologias. Desse modo, vai entender como esses impactos podem ocorrer em diferentes momentos do processo de inovação tecnológica.
+
+https://creator-files.plataforma.grupoa.education/learning-object/4223/14348_EXA_INF_V2-2026-06-05T01:05:50-03:00.jpg
+
+CONTEUDO DO LIVRO
+
+A governança de tecnologia da informação tornou-se um componente estratégico para as organizações que buscam competitividade, eficiência operacional e capacidade de adaptação às mudanças do mercado. Em ambientes empresariais cada vez mais digitais, as decisões relacionadas à tecnologia influenciam processos internos, comunicação corporativa, segurança das informações e geração de valor para o negócio.
+
+O alinhamento entre os objetivos organizacionais e as decisões da área de TI permite que investimentos tecnológicos sejam direcionados de forma mais assertiva. Nesse contexto, também se observa a crescente dependência das empresas em relação aos recursos digitais para a execução de atividades administrativas, produtivas e gerenciais, cenário que pode gerar benefícios relevantes, mas também desafios operacionais e estratégicos quando não há planejamento adequado.
+
+No capítulo Alinhar as decisões da TI e do negócio, base teórica desta Unidade de Aprendizagem, você vai apreender como o alinhamento entre TI e negócio pode fortalecer os resultados organizacionais. Além disso, vai analisar como a governança de TI contribui para direcionar recursos tecnológicos, apoiar decisões estratégicas e ampliar o desempenho empresarial.
+
+Boa leitura.​​​​
+
+PDF SALVO
+
+EXERCICIOS 
+
+
+Questão 1
+
+No ambiente organizacional, o mapeamento de processos apoiados pela tecnologia da informação permite diferenciar rotinas internas de transações com agentes externos. Essa distinção auxilia a governança e o planejamento de TI a reconhecer quais atividades sustentam o funcionamento administrativo da empresa e quais envolvem interação direta com o mercado.
+
+Considerando esse contexto, assinale a alternativa que classifica corretamente a atividade de processamento da folha de pagamento.
+Selecione a resposta:
+a
+
+Corresponde a uma operação executada no âmbito interno da organização.
+b
+
+Refere-se a uma atividade vinculada ao relacionamento operacional com agentes externos.
+c
+
+Caracteriza-se como procedimento de acompanhamento gerencial de indicadores organizacionais.
+d
+
+Representa uma ação de definição de prioridades estratégicas da tecnologia da informação.
+e
+
+Define-se como processo diretamente relacionado à entrega de valor ao mercado.
+
+---
+ 
+                  Questão 2
+                
+ 
+
+  
+
+  As
+ organizações mantêm relações contínuas com diversos agentes do ambiente
+ externo, como clientes, parceiros comerciais, órgãos reguladores e 
+empresas fornecedoras. Essas interações geram transações externas, pois 
+envolvem atividades realizadas entre a empresa e entidades que não 
+pertencem à sua estrutura interna e que podem depender de sistemas de 
+informação para registro e acompanhamento.
+ Considerando esse contexto, assinale a alternativa que apresenta corretamente um exemplo de transação externa.
+ 
+            Selecione a resposta:
+          
+  a 
+ Solicitação interna de aquisição registrada entre setores administrativos.
+  
+ b 
+ Remanejamento de recursos financeiros entre centros de custo da empresa.
+  
+ c 
+ Negociação operacional feita com empresas fornecedoras de materiais ou serviços.
+  
+ d 
+ Controle contábil de obrigações financeiras processadas internamente.
+  
+ e 
+ Atualização de registros funcionais em sistema interno de gestão de pessoas.
+
+---
+ 
+                  Questão 3
+                
+ 
+
+  
+
+  Em
+ ambientes corporativos marcados por inovação constante, a área de 
+tecnologia da informação frequentemente precisa adaptar processos, 
+ferramentas e estruturas para acompanhar novas demandas estratégicas. 
+Essas transformações exigem preparo técnico e gerencial para reduzir 
+resistências internas, reorganizar rotinas e assegurar melhores 
+resultados institucionais. 
+ Considerando
+ esse cenário, assinale a alternativa que apresenta o aspecto 
+fundamental para viabilizar esse processo de transformação.
+ 
+            Selecione a resposta:
+          
+  a 
+ Compliance.
+  
+ b 
+ Gestão do alinhamento estratégico.
+  
+ c 
+ Gestão do desempenho.
+  
+ d 
+ Gestão da comunicação.
+  
+ e 
+ Gestão da mudança organizacional.
+
+---
+ 
+                  Questão 4
+                
+ 
+
+  
+
+  Os
+ sistemas de informação podem ser classificados conforme o tipo de 
+suporte oferecido às atividades organizacionais. Entre eles, o sistema 
+de informação gerencial (SIG) destaca-se por transformar dados 
+operacionais em informações úteis ao acompanhamento administrativo e ao 
+processo decisório. 
+ Considerando essas características, assinale a alternativa que representa a principal atuação de um SIG no contexto empresarial.
+ 
+            Selecione a resposta:
+          
+  a 
+ Gerenciar a infraestrutura tecnológica por meio do controle de redes, servidores e recursos computacionais.
+  
+ b 
+ Disponibilizar relatórios gerenciais e informações consolidadas para apoiar o acompanhamento administrativo.
+  
+ c 
+ Registrar operações financeiras rotineiras e processar lançamentos transacionais de curto prazo.
+  
+ d 
+ Coordenar fluxos operacionais integrados com foco direto na execução produtiva e logística empresarial.
+  
+ e 
+ Aplicar modelos analíticos avançados para simular cenários estratégicos de alta complexidade.
+
+---
+
+Questão 5
+
+O alinhamento estratégico entre negócio e tecnologia da informação busca aproximar as demandas organizacionais das decisões sobre recursos, sistemas e projetos tecnológicos. Esse processo contribui para que a TI seja planejada de acordo com as necessidades de crescimento e desempenho da empresa.
+
+Nesse sentido, analise a seguinte situação.
+
+Uma empresa do setor logístico ampliou suas operações para novas regiões e percebeu que seus sistemas internos já não atendiam plenamente às demandas de crescimento. A diretoria decidiu revisar o alinhamento estratégico entre negócio e tecnologia da informação, buscando direcionar investimentos de forma mais eficiente e priorizar projetos capazes de gerar maior impacto organizacional.
+
+Considerando esse contexto, assinale a alternativa que indica a principal atividade a ser realizada após o processo de alinhamento estratégico.
+Selecione a resposta:
+a
+
+Definir as estratégias gerais de negócio para os próximos ciclos corporativos.
+b
+
+Estabelecer as competências operacionais e os processos centrais da organização.
+c
+
+Estruturar as capacidades internas voltadas ao desempenho do negócio.
+d
+
+Definir as prioridades da TI conforme os objetivos empresariais.
+e
+
+Reorganizar o modelo global de gestão corporativa vigente.
+
+---
+
+PRATICA
+
+A incorporação de recursos tecnológicos tem provocado mudanças profundas na forma como as organizações estruturam suas atividades, atendem clientes e desenvolvem vantagens competitivas. Em diferentes setores econômicos, a inovação digital passou a influenciar produtividade, qualidade dos serviços, capacidade de adaptação e velocidade de resposta às demandas do mercado. Nesse contexto, a tecnologia assume papel estratégico no fortalecimento da sustentabilidade empresarial.
+
+De maneira mais específica, a adoção de sistemas informatizados, automação de processos e ferramentas integradas de gestão tende a ampliar a eficiência operacional e apoiar decisões gerenciais baseadas em dados. Segundo Porter e Millar (1985), a tecnologia da informação pode alterar regras competitivas ao modificar processos internos, criar novos modelos de negócio e redefinir relações entre empresas, clientes e fornecedores. Assim, investir em TI deixou de representar apenas suporte técnico e passou a compor a estratégia organizacional.
+
+Neste Na Prática, você vai explorar como esses impactos se manifestam diante de desafios reais do mercado. Também vai identificar como a implementação de recursos de TI pode transformar os resultados de uma empresa.
+
+https://creator-files.plataforma.grupoa.education/learning-object/4227/14348_EXA_NAP_V2-2026-06-05T01:26:32-03:00.jpg

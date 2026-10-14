@@ -1,0 +1,139 @@
+apresentacao
+
+Processamento de imagem é qualquer forma que evidencie o processamento de dados, onde tais dados são representados por imagens (fotografias ou quadros de um vídeo), tanto na entrada como na saída de um processo. O processamento de imagem inicia quando uma imagem é capturada, sendo uma tarefa complexa que envolve uma série de técnicas para seu tratamento.
+
+Nesta Unidade de Aprendizagem, você entenderá como surgiu o processamento de imagens, como ele pode ser utilizado e quais são suas principais características, explorando suas técnicas e como cada uma delas pode ser aplicada.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Descrever a evolução histórica do processamento de imagens.
+    Definir os conceitos básicos do processamento de imagens.
+    Demonstrar exemplos de processamento de imagens.
+
+Atualmente, diversos dispositivos são utilizados na aquisição de imagens. Os mais utilizados são as câmeras fotográficas e os dispositivos móveis. Eles têm recursos de captura tão eficientes ou ainda mais do que os utilizados no processamento de imagens.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/650f97e4-3129-40c0-baf3-c81b82c2fe11/5294c2ae-5273-4c30-8009-27319adb87d8.jpg
+
+1) Identifique a função do pré-processamento no tratamento de cada uma das imagens.
+
+2) Analise quais filtros ou técnicas necessitam ser aplicados para que a imagem A tenha as correções necessárias aplicadas durante o PDI, sem afetar sua qualidade. Por que o problema foi ocasionado na aquisição da imagem?
+
+3) Descreva qual prática foi aplicada na imagem B para apresentar o aspecto de realce no guarda-chuva, representado como o único elemento colorido da imagem. 
+
+O processamento de imagens (PDI) permite a resolução de problemas cada vez mais complexos, com a aplicação de métodos, técnicas e etapas que fazem parte de sua estrutura, permitindo a reconstrução de uma entrada apresentada por uma imagem, realizando o processamento da informação visual e a representando com melhorias.
+
+Neste Infográfico, acompanhe, além dasfunções do PDI, seus benefícios e as características que envolvem o pré-processamento de imagens, importante para que o PDI seja realizado de maneira correta.
+
+infografico
+
+O processamento de imagens (PDI) permite a resolução de problemas cada vez mais complexos, com a aplicação de métodos, técnicas e etapas que fazem parte de sua estrutura, permitindo a reconstrução de uma entrada apresentada por uma imagem, realizando o processamento da informação visual e a representando com melhorias.
+
+Neste Infográfico, acompanhe, além dasfunções do PDI, seus benefícios e as características que envolvem o pré-processamento de imagens, importante para que o PDI seja realizado de maneira correta.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/8f89069f-69ad-4b2c-aa72-d9bd9189fd06/e3ab00d7-d852-40ec-95bd-2a94156137de.jpg
+
+livro
+
+
+
+O processamento digital de imagens determina que a manipulação de uma imagem seja realizada via computador, recebendo a imagem como entrada e fornecendo a mesma como saída, apresentando um melhor aspecto visual, livrando feições estruturais e englobando uma série de técnicas de manipulação numérica de todo e qualquer dado contido em uma imagem digital.
+
+O processamento não envolve somente a análise de dados, mas também o modo como as imagens são processadas, tendo como principal objetivo melhorar seu aspecto visual e fornecer fatores que permitam sua interpretação, gerando elementos que possam ser submetidos ao processamento. Diversos segmentos utilizam o processamento de imagens, obtendo as informações necessárias para que possam ser utilizadas de forma útil em determinada tarefa, por meio da extração de informações e representação de dados.
+
+No capítulo Introdução ao processamento digital de imagens, da obra Reconhecimento de padrões, base teórica desta Unidade de Aprendizagem, você entenderá como se deu a evolução tecnológica do processamento de imagens, percebendo como esse processo ocorre, examinando suas características principais e explorando exemplos que envolvem técnicas utilizadas no tratamento e processamento de imagens.
+
+Boa leitura.
+
+exercicio
+
+
+Questão 1
+
+O histórico do processamento de imagens é marcado pela evolução das técnicas e se deu desde o surgimento das primeiras tecnologias e equipamentos. Entre eles, estão os primeiros computadores digitais e as aplicações que deram origem às técnicas. Sendo assim, considere as seguintes afirmações sobre o histórico do PDI e classifique-as como verdadeiras (V) ou falsas (F):
+
+( ) Aplicações como a Bartlane, criadas nos primórdios do processamento de imagens, surgiram para aprimorar equipamentos, a fim de tornar as tecnologias mais completas, permitindo o tratamento de imagens em tempo real, principalmente com o uso de equipamentos como os digitalizadores, no processo de aquisição de imagem.
+
+
+( ) O interesse de aplicar melhorias em imagens fez surgir o processamento digital de imagens e suas técnicas, que passaram a ser utilizadas, permitindo que informações visuais, tanto aos olhos humanos quanto na interpretação de computadores, passassem melhor percepção em relação à qualidade.
+
+
+( ) O primeiro computador digital, conhecido como ENIAC, criado com foco na área de processamento de imagens, tornou possível a captura de imagens em grande escala e foi desenvolvido com o intuito de acompanhar a trajetória do transporte de armas durante a Segunda Guerra Mundial, sendo utilizado com sucesso para essa finalidade.
+
+
+( ) Foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram iniciadas e passaram a ser utilizadas constantemente para aprimorar traços e características, modificando os objetos e corrigindo sua estrutura e imperfeições, como ruídos.
+
+
+( ) A Bartlane foi expandida após sua criação, evoluindo de 5 níveis de intensidade, aplicados em sua origem, para 15 níveis, o que lhe deu maior poder no processamento de imagens. Além disso, as aplicações e sistemas Bartlane utilizavam cabos submarinos, para possibilitar a transmissão de imagens entre seus extremos.
+
+Selecione a resposta:
+a
+
+F - V - V - V - V.
+
+Comentários da resposta
+
+I. Afirmativa falsa, pois a Bartlane foi criada com a intenção de aprimorar a qualidade de imagens obtidas por dispositivos de digitalização.
+II. Afirmativa verdadeira, pois o PDI surgiu do interesse de tornar as imagens visualmente melhores, tanto na percepção humana quanto na assimilação computacional.
+III. Afirmativa falsa, pois apesar de o ENIAC ter sido criado para execução da tarefa descrita, se tornou operacional somente após a guerra, não sendo aplicado para esse fim.
+IV. Afirmativa verdadeira, pois foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram desenvolvidas, inicialmente.
+​​​​​​​V. Afirmativa verdadeira, pois a Bartlane expandiu sua estrutura durante sua evolução, tornando as funcionalidades ainda mais eficientes e utilizando cabos submarinos para transmitir dados entre Londres e Nova Iorque.
+b
+
+F - V - F - V - V.
+Esta é a resposta correta
+
+Comentários da resposta
+
+I. Afirmativa falsa, pois a Bartlane foi criada com a intenção de aprimorar a qualidade de imagens obtidas por dispositivos de digitalização.
+II. Afirmativa verdadeira, pois o PDI surgiu do interesse de tornar as imagens visualmente melhores, tanto na percepção humana quanto na assimilação computacional.
+III. Afirmativa falsa, pois apesar de o ENIAC ter sido criado para execução da tarefa descrita, se tornou operacional somente após a guerra, não sendo aplicado para esse fim.
+IV. Afirmativa verdadeira, pois foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram desenvolvidas, inicialmente.
+​​​​​​​V. Afirmativa verdadeira, pois a Bartlane expandiu sua estrutura durante sua evolução, tornando as funcionalidades ainda mais eficientes e utilizando cabos submarinos para transmitir dados entre Londres e Nova Iorque.
+c
+
+F - V - F - F - V.
+Você não acertou
+
+Comentários da resposta
+
+I. Afirmativa falsa, pois a Bartlane foi criada com a intenção de aprimorar a qualidade de imagens obtidas por dispositivos de digitalização.
+II. Afirmativa verdadeira, pois o PDI surgiu do interesse de tornar as imagens visualmente melhores, tanto na percepção humana quanto na assimilação computacional.
+III. Afirmativa falsa, pois apesar de o ENIAC ter sido criado para execução da tarefa descrita, se tornou operacional somente após a guerra, não sendo aplicado para esse fim.
+IV. Afirmativa verdadeira, pois foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram desenvolvidas, inicialmente.
+​​​​​​​V. Afirmativa verdadeira, pois a Bartlane expandiu sua estrutura durante sua evolução, tornando as funcionalidades ainda mais eficientes e utilizando cabos submarinos para transmitir dados entre Londres e Nova Iorque.
+d
+
+F - V - V - F - V.
+
+Comentários da resposta
+
+I. Afirmativa falsa, pois a Bartlane foi criada com a intenção de aprimorar a qualidade de imagens obtidas por dispositivos de digitalização.
+II. Afirmativa verdadeira, pois o PDI surgiu do interesse de tornar as imagens visualmente melhores, tanto na percepção humana quanto na assimilação computacional.
+III. Afirmativa falsa, pois apesar de o ENIAC ter sido criado para execução da tarefa descrita, se tornou operacional somente após a guerra, não sendo aplicado para esse fim.
+IV. Afirmativa verdadeira, pois foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram desenvolvidas, inicialmente.
+​​​​​​​V. Afirmativa verdadeira, pois a Bartlane expandiu sua estrutura durante sua evolução, tornando as funcionalidades ainda mais eficientes e utilizando cabos submarinos para transmitir dados entre Londres e Nova Iorque.
+e
+
+F - V - V - V - F.
+
+Comentários da resposta
+
+I. Afirmativa falsa, pois a Bartlane foi criada com a intenção de aprimorar a qualidade de imagens obtidas por dispositivos de digitalização.
+II. Afirmativa verdadeira, pois o PDI surgiu do interesse de tornar as imagens visualmente melhores, tanto na percepção humana quanto na assimilação computacional.
+III. Afirmativa falsa, pois apesar de o ENIAC ter sido criado para execução da tarefa descrita, se tornou operacional somente após a guerra, não sendo aplicado para esse fim.
+IV. Afirmativa verdadeira, pois foi no Jet Propulsion Laboratory que as técnicas de aprimoramento de imagens foram desenvolvidas, inicialmente.
+​​​​​​​V. Afirmativa verdadeira, pois a Bartlane expandiu sua estrutura durante sua evolução, tornando as funcionalidades ainda mais eficientes e utilizando cabos submarinos para transmitir dados entre Londres e Nova Iorque.
+
+
+pratica
+
+
+
+O processamento de imagens define diversas características na visão computacional; algumas são capazes de produzir cor na imagem ou um melhor padrão de contraste, extrair informações, com o objetivo de classificar os padrões de recuperação do conteúdo de interesse que a imagem contém, entre outras.
+
+Veja, Na Prática, como imagens que passam pelo processamento de imagem podem ter os problemas gerados na fase de aquisição resolvidos, seja na etapa de pré-processamento, segmentação ou qualquer outra que contenha a aplicação correta de técnicas parar gerar como resultado uma imagem de boa qualidade.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/861533c5-dbbb-4de3-95e5-5d0925d803bc/18f33eef-ad53-48f0-828e-98d82a8b1ba0.jpg
+
+

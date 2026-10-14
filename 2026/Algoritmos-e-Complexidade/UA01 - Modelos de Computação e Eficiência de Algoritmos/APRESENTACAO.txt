@@ -1,0 +1,168 @@
+APRESENTACAO
+
+Quando se fala de modelos de computação e de eficiência de algoritmos, a expressão que surge éanálise de algoritmos. Essa análise nada mais é do que um estudo que tem como objetivo determinar os recursos computacionais necessários para executar determinado algoritmo. Geralmente esse tipo de análise leva em consideração a complexidade de tempo e a complexidade de espaço de um algoritmo: a primeira é relacionada com o desempenho em si, e a segunda, com a memória utilizada pelo algoritmo.
+
+Nesta Unidade de Aprendizagem, você entenderá a diferença entre complexidade temporal e de espaço, compreendendo suas particularidades. Além disso, conhecerá um modelo de contagem genérico, o qual é geralmente utilizado para analisar a eficiência de programas e algoritmos. Por fim, você verá como utilizar o modelo de contagem definido para identificar a eficiência de diferentes algoritmos em suas entradas de melhor e de pior caso.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Definir complexidade temporal e complexidade de espaço.
+    Desenvolver um modelo de contagem para análise da eficiência
+    ​​​​​​​de algoritmos.
+    Explicar a contagem na análise de eficiência de algoritmos de
+    ​​​​​​​melhor e de pior caso.
+
+DESAFIO
+
+A base de dados do Sistema de Avaliação da Educação Básica (SAEB) apresenta os dados de desempenho em Português e em Matemática dos alunos de escolas do Brasil. Pode-se utilizar essas informações para avaliar a qualidade da educação brasileira. Nessa base, os alunos estão divididos por ano: 5º ano (4ª série) do Ensino Fundamental, 9º ano (8ª série) do Ensino Fundamental e 3º ano do Ensino Médio.
+
+Levando isso em conta, no papel de analista de dados de uma empresa que é referência não somente em analisar dados, mas também em desenvolver soluções eficientes, considere o seguinte problema:
+
+A imagem a seguir possui audiodescrição.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/0e49e239-4b83-42eb-be2c-5b9de8add375/8441e8d6-11bd-49c8-b9f8-b2c916e04606.jpg
+
+RESPOSTA: JustificativaEficiência no Tempo de Processamento (Comportamento Assintótico):Como a operação de filtro ocorre em 95% dos casos e o cálculo estatístico em 5%, o tempo médio ponderado de execução para a Solução B é de:$$\text{Tempo Médio} = 0{,}95 \cdot O(N) + 0{,}05 \cdot O(N) = O(N)$$A Solução A possui um gargalo crítico no cálculo estatístico com complexidade quadrática $O(N^2)$. Para bases de dados volumosas como a do SAEB (com milhões de alunos), $O(N^2)$ torna o sistema inviável e extremamente lento, mesmo ocorrendo em apenas 5% das vezes.   A Solução C atinge a mesma complexidade de tempo linear esperada $O(N)$, porém perde na eficiência de uso de memória.   Otimização de Memória (Espaço):A Solução B é a única que mantém o uso de memória constante $O(1)$ tanto na filtragem quanto no cálculo estatístico. Isso garante que a aplicação rode de forma leve, sem risco de estourar a memória (Memory Overflow/OOM) ao lidar com a totalidade dos dados do SAEB.   As soluções A e C exigem alocação de memória proporcional ao tamanho da base $O(N)$ em uma de suas etapas.   Portanto, a Solução B oferece o melhor equilíbrio entre estabilidade, previsibilidade de desempenho e baixo consumo de infraestrutura para dados em grande escala.  
+
+INFOGRAFICO
+
+São diversas as ferramentas que podem ser utilizadas para analisar o desempenho exato de um programa em determinado ambiente de execução. Entretanto, na maioria das vezes, esse tipo de análise detalhada não é tão relevante. Nesse caso, surge a análise de complexidade, a qual avalia a eficiência de uma solução algorítmica levando em consideração apenas o tamanho da entrada, e não todos os detalhes de uma arquitetura específica de computador.
+
+Confira, no Infográfico a seguir, as principais complexidades de tempo encontradas em funções e programas.
+
+A imagem a seguir possui audiodescrição.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/be994788-791c-4fb8-bd9d-f15b9b571fd2/1b6fff46-c45b-41d1-b994-791229c98a0a.jpg
+
+A análise de algoritmos integra a área conhecida como complexidade de algoritmos, cujo enfoque é identificar os recursos para execução de um algoritmo, analisando seu desempenho mediante estimativas teóricas para resolução de problemas computacionais. Essa análise estabelece uma forma de comparação entre algoritmos para definir qual apresenta maior eficiência.
+
+Acompanhe neste tutorial um pouco mais sobre a complexidade e suas notações mais conhecidas.
+
+CONTEUDO DO LIVRO
+
+Analisar o desempenho de cada instrução do código-fonte de um algoritmo seria uma tarefa muito maçante. Esse tipo de análise precisaria ser refeito cada vez que o processador, o disco rígido e a quantidade de memória de um computador fossem alterados. Em vez disso, para medir a eficiência de um algoritmo, leva-se em consideração apenas o termo que mais cresce quando o tamanho da entrada é aumentado infinitamente.
+
+No capítulo Modelos de computação e eficiência de algoritmos, da obra Análise de algoritmos, base teórica desta Unidade de Aprendizagem, você estudará os conceitos de complexidade temporal, ou seja, a quantidade de passos ou operações que um algoritmo precisa para executar. Também estudará a complexidade de espaço, a qual representa a memória utilizada pelo algoritmo ou programa, e verá um modelo de contagem para, assim, analisar a eficiência de diferentes soluções algorítmicas. Por fim, você entenderá como analisar a eficiência no melhor e no pior caso de suas entradas.
+
+Boa leitura.
+
+pdf salvo
+
+exercicio
+
+
+Questão 1
+
+A operação de multiplicação de matrizes é base de muitos solucionadores de equações diferenciais e também simuladores ​​​​​​​de fenômenos físicos.
+
+Geralmente, essa operação é implementada por um algoritmo que tem três laços alinhados de execução. Sabendo que, dentro desses laços, existem apenas operações de tempo constante, qual é a complexidade de tempo da multiplicação de matrizes implementada dessa maneira?
+
+Selecione a resposta:
+a
+
+N³.
+b
+
+log N.
+c
+
+N.
+d
+
+N².
+e
+
+1.
+
+
+
+---
+
+Questão 2
+
+A ordenação de vetores é um dos problemas mais estudados em computação, sendo que diferentes soluções foram propostas ao longo do tempo. Diversas dessas soluções têm complexidade de tempo semelhante, e o que as diferencia é, principalmente, a complexidade de espaço.
+
+Sabendo que existe limitação de espaço para sua execução, qual das complexidades de espaço elencadas a seguir é a mais eficiente?
+
+Selecione a resposta:
+a
+
+1.
+b
+
+N.
+c
+
+N².
+d
+
+N log N.
+e
+
+log N.
+
+---
+
+
+Questão 4
+
+Ao longo do tempo, diversas soluções para problemas conhecidos foram propostas, cada uma com suas particularidades que envolvem desde a eficiência até a qualidade do resultado.
+
+Sabendo que todas as soluções para um problema têm a mesma qualidade de resultado, qual das complexidades elencadas a seguir indica a solução com melhor eficiência de tempo?
+
+Selecione a resposta:
+a
+
+log N.
+b
+
+N log N.
+c
+
+N.
+d
+
+N².
+e
+
+N³.
+
+---
+
+
+
+Questão 5
+
+Existe uma solução para a busca de elementos em um vetor que assume que existe um vetor já ordenado e realiza uma busca guiada nele, de maneira que, a cada iteração, metade do vetor restante é ignorada, buscando o elemento desejado apenas na outra metade.
+
+Qual é a complexidade de tempo de soluções desse tipo, ou seja, ​​​​​​​que em cada iteração diminuem o tamanho do problema pela metade, de maneira similar à busca mencionada?
+
+Selecione a resposta:
+a
+
+N² log N.
+b
+
+N².
+c
+
+N.
+d
+
+N log N.
+e
+
+log N.
+
+---
+
+na pratica
+
+Na maior parte das vezes, um problema real requer uma solução rápida e precisa. Nesse cenário, o requisito velocidade está diretamente relacionado com a escolha dos algoritmos e dos métodos ao longo da escrita do programa.
+
+Neste Na Prática, acompanhe o estudo de caso de um grupo de pesquisa de computação e análise de algoritmos que estava auxiliando outros pesquisadores a decidirem as melhores soluções para seus problemas computacionais.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/7b95fdbf-e614-4591-9779-7c46d235088c/82a8fe27-7e22-4b86-b0e5-c95901d3b61a.jpg
+
+

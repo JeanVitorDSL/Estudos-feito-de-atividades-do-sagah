@@ -1,0 +1,272 @@
+APRESENTACAO
+
+Nesta Unidade de Aprendizagem, estudaremos o funcionamento de alguns métodos de ordenação interna de dados, seu funcionamento básico e o que as diferencia, para, assim, identificar as vantagens e desvantagens da utilização em uma aplicação na qual se faz necessária a ordenação dos dados armazenados.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Diferenciar alguns dos métodos de ordenação interna de dados.
+    Reconhecer o funcionamento de alguns dos métodos de ordenação interna de dados.
+    Identificar os benefícios da aplicação da ordenação de dados na solução de problemas do dia a dia. 
+    
+
+INFOGRAFICO
+
+Muitos são os métodos de ordenação de dados internos. As técnicas de ordenação permitem ter várias derivações de algoritmos distintos para resolver a mesma tarefa. Para escolher o método mais eficiente de ordenação de dados para o problema em questão, é necessário avaliar vários itens, tais como:
+
+► Como os dados estão originalmente: em ordem? A ordem é aleatória, ascendente ou descendente?
+► Qual a quantidade de elementos a serem ordenados?
+
+Para escolher o método mais eficiente, é necessário analisar todas as perguntas realizadas acima e observar em que situação um método é mais eficiente que outro. Nem sempre o método mais complexo, que utiliza estruturas complexas, é o mais eficiente.
+
+O método de ordenação bolha é um dos mais fáceis e simples e apresenta várias derivações de implementações. Você encontra uma simulação desse método, utilizando cartas de um baralho, no vídeo da dica do professor nesta unidade de aprendizagem.
+
+plemente uma solução para o método bolha observando os seguintes aspectos:
+
+► Ordene do menor para o maior, colocando os elementos na ordem crescente;
+
+o teste deve iniciar do lado direito do vetor, testando primeiramente os dois últimos elementos adjacentes no vetor;
+
+na primeira interação, o menor elemento deve permanecer na primeira posição do vetor já ordenado.
+
+► Abra o arquivo desenvolvido no VisuAlg no link abaixo:
+
+(OQ TEM DENTRO DO ARQUIVO)
+
+// O vetor cartas é uma variável global e não é passada por parâmetro para os módulos.
+// o vetor tem tamanho fixo de 6 posições, este valor é passado como parâmetro para os módulos.
+algoritmo "ordena_cartas"
+var
+cartas: vetor[1..6] de inteiro
+
+
+// Módulo para efetuar o cadastro das cartas e armazena no vetor cartas
+procedimento ler_cartas(n:inteiro)
+var
+indice:inteiro
+inicio
+para indice de 1 ate n passo 1 faca
+   escreva("Número da Carta(",indice,"): ")
+   leia(cartas[indice])
+fimpara
+fimprocedimento
+
+
+
+// modulo que imprime o vetor cartas
+procedimento imprime_cartas (n:inteiro)
+var
+indice:inteiro
+inicio
+//imprime o vetor ordenado
+escreval("")
+escreval("Relatório das Cartas Ordenadas ")
+para indice de 1 ate n passo 1 faca
+   escreval("Vetor ordenado" , indice,":",cartas[indice])
+fimpara
+fimprocedimento
+
+// modulo que ordena e imprime o vetor em ordem crescente.
+// IMPLEMENTE AQUI O MÓDULO PARA O MÉTODO DO VIDEO DA ORDENAÇÃO BOLHA.
+
+
+
+
+
+
+// Corpo principal do algoritmo
+inicio
+
+ler_cartas(6)      // chama o módulo lerCliente
+                      // CHAME AQUI O MÉTODO DE ORDENAÇÃO BOLHA
+imprime_cartas(6)         // chama o módulo imprime
+fimalgoritmo
+
+
+INFOGRAFICO
+
+No arquivo encontram-se já implementados os módulos para a leitura e a impressão das cartas do baralho. Acrescente nesse mesmo arquivo o módulo de ordenação bolha e entregue o arquivo com a extensão .alg no link abaixo.
+https://statics-marketplace.plataforma.grupoa.education/sagah/29232701-6e1f-4934-a9b6-05de8ba95a95/c5cd393c-ed7e-4421-ae81-8cbca1cbe7df.png
+
+LIVRO
+
+PDF SALVO
+
+
+EXERCICIOS  
+
+
+Questão 1
+
+Com base na funcionalidade dos métodos internos simples de ordenação de dados, identifique qual o método corresponde a cada alternativa descrita abaixo.I. A ________________ seleciona o menor entre os n elementos de um vetor ou uma tabela e realiza a troca deste pelo primeiro elemento. E, para o restante dos elementos, é encontrado novamente o elemento de menor chave, trocando-o pelo segundo elemento e assim por diante até chegar aos dois últimos elementos.II. A _________________ percorre elemento por elemento do vetor ou tabela, deslocando os elementos já ordenados e inserindo o elemento que deseja colocar em ordem na posição correta com relação aos elementos já ordenados. III. A _________________ é a ordenação por trocas, que envolve repetidas comparações e, se necessário, a troca de dois elementos que encontram-se um ao lado do outro. Nesse método, o elemento mais leve sobe e o mais pesado desce, ou ocorre o contrário, dependendo da ordem na qual deseja-se colocar os elementos ordenados.Os métodos internos que representam de forma correta a sua funcionalidade descrita acima nas alternativas I, II e III são, respectivamente:
+
+Selecione a resposta:
+a
+
+Ordenação por seleção – ordenação por inserção – ordenação bolha.
+b
+
+Ordenação por seleção – ordenação bolha - ordenação por inserção.
+c
+
+Ordenação por inserção – ordenação bolha - ordenação por seleção.
+d
+
+Ordenação bolha – ordenação por inserção – ordenação por seleção.
+e
+
+Ordenação por inserção – ordenação por seleção – ordenação bolha.
+
+---
+
+
+
+Questão 2
+
+Em vários momentos do nosso dia a dia, precisamos de dados ordenados para agilizar nosso trabalho de pesquisa ou busca. Como exemplo, pode-se citar um relatório dos dados pessoais dos funcionários de uma empresa. Como seria consultar os dados de um funcionário, como e-mail ou telefone, se o relatório não estivesse em ordem alfabética de nome? Em função dessa necessidade de dados ordenados, existem vários métodos de ordenação, alguns melhores que outros. Analise e julgue as alternativas a seguir, acerca dos algoritmos para ordenação interna apresentados na Unidade de Aprendizagem. I. O algoritmo de ordenação por inserção simples apresenta um ótimo desempenho quando os elementos a serem ordenados encontram-se já inseridos de forma ordenada, não importando a quantidade de elementos a serem ordenados. Apresenta um desempenho não eficiente se os elementos encontram-se em ordem descendente/invertida.II. Um algoritmo de ordenação é considerado estável se ele não alterar a posição relativa de elementos de mesmo valor.III. O método bolha é um dos métodos mais fáceis de programar, mas não é eficiente comparado a outros métodos.IV. Os métodos de ordenação simples por inserção, método bolha e por seleção possuem complexidade de O(n2) comparações.Assinale a alternativa que contém a correta sequência de V (verdadeiro) e F (falso), correspondente às afirmativas acima.
+
+Selecione a resposta:
+a
+
+V, V, F, V.
+b
+
+V, F, V, F.
+c
+
+F, V, F, V.
+d
+
+V, V, V, F.
+e
+
+V, V, V, V.
+
+---
+
+
+Questão 3
+
+Com relação à classificação dos métodos de ordenação e de fatores que devem ser levados em consideração no momento de avaliar e comparar os diversos métodos estudados na Unidade de Aprendizagem, avalie as alternativas apresentadas abaixo e assinale a alternativa INCORRETA.
+
+Selecione a resposta:
+a
+
+Os métodos de ordenação são classificados em interno, externo e misto.
+b
+
+O número de comparações entre as chaves e o número de trocas entre os elementos para a sua ordenação não podem ser considerados uma forma de avaliar e comparar os métodos de ordenação interna estudados na Unidade porque cada algoritmo é diferente.
+c
+
+O método de ordenação é considerado estável quando, no momento da ordenação, não movimenta os elementos que são iguais, ou seja, que possuem a mesma chave.
+d
+
+O método possui um comportamento natural quando trabalha o mínimo, quando os elementos forem inseridos de forma ordenada; trabalha mais quando os elementos forem introduzidos de forma mais desordenada e trabalha o máximo quando em ordem inversa.
+e
+
+A ordenação tem por objetivo facilitar e agilizar a busca de elementos.
+
+---
+
+
+Questão 4
+
+Considere o módulo de ordenação denominado ORDENA_VETOR desenvolvido em pseudocódigo:Realize o teste de mesa para o módulo ORDENA_VETOR com os valores de entrada para o vetor “Elementos” de 6 posições, em que o vetor é uma variável local do algoritmo.Elementos = {6,5,3,23,12,34}
+
+Representações:
+indice, f: representam os índices que controlam a posição do vetor Elementos.
+Elementos: representa o vetor no qual os elementos estão armazenados.
+tmp: representa uma variável auxiliar para a troca dos elementos de posição.
+menor: representa a variável que armazena a posição do menor elemento encontrado.
+Selecione a alternativa que representa o método de ordenação utilizado para ordenar o vetor Elementos.
+
+Selecione a resposta:
+a
+
+Ordenação bolha.
+b
+
+Ordenação por inserção.
+c
+
+Ordenação por seleção.
+d
+
+Quicksort.
+e
+
+Ordenação Shell.
+
+---
+
+
+Questão 5
+
+O método de ordenação Quicksort é um dos métodos de ordenação interna mais eficiente em um grande número de situações práticas de aplicação em que a ordenação se fez necessária. O método apresenta diversas derivações de algoritmos para a implementação, algumas mais simples, outras utilizando a recursividade, que empregam a chamada funções de forma recursiva, ou seja, funções que chamam por elas mesmas. Como exemplo de aplicação, podemos citar a ordenação de nomes e notas de todos os alunos de uma turma da disciplina de Cálculo dos cursos de Engenharia em ordem alfabética de forma crescente ou decrescente ou em ordem de notas, conforme necessidade do professor.Com relação a esse método, analise as afirmações abaixo e marque qual apresenta informações INCORRETAS.
+
+I . O método Quicksort é considerado um método de ordenação estável.
+
+II. A escolha correta do pivô é essencial para a garantia de eficiência do algoritmo. O cálculo da mediana de três chaves é uma das formas eficientes de encontrar o elemento pivô.
+
+III. O pivô pode ser o elemento do meio do vetor/tabela a ser ordenado.
+
+IV. Utiliza um pivô para dividir o vetor/tabela em duas partes, em que vai colocando os menores elementos de um lado e os maiores de outro.
+
+Selecione a resposta:
+a
+
+I.
+b
+
+I e II.
+c
+
+III e IV.
+d
+
+I, II e III.
+e
+
+I, II, III e IV.
+
+---
+
+NA PRATICA
+
+A atividade de ordenação é uma das mais utilizadas na computação e é muito importante para todos nós. Consiste em uma atividade de organizar um conjunto de elementos em determinada ordem, podendo ser ascendente ou descendente, e que tem por objetivo principal facilitar e agilizar a busca ou recuperação de um elemento.
+
+Vamos analisar uma situação prática!
+
+Você teria que ler toda a lista telefônica para encontrar o nome da pessoa que deseja. A pesquisa seria realizada pela chave (nome). Assim, encontrando o registro, encontraria o número de telefone, mas isso aconteceria depois de dias de pesquisa.
+
+Entretanto, como a lista telefônica vem classificada por categorias, e, dentro das categorias, vem ordenada por nome, com certeza encontraremos o telefone de maneira muito rápida.
+
+Mas e se a lista viesse ordenada de outra forma?
+
+Pegue a lista telefônica de sua cidade e verifique como ela está organizada. Hoje, todas as listas são eletrônicas. Mas pegue uma antiga e olhe. Já pensou se tivesse uma única lista para todos os telefones do mundo, ou de um país inteiro, ou de um estado inteiro para você procurar. Qual seria o tamanho dessa lista?
+
+Com certeza, sua pesquisa levaria muitos dias para ter o retorno do número procurado, pois o número de elementos nos quais você pesquisaria aumentaria consideravelmente, aumentando também o tempo para encontrar um elemento dentro de uma tabela. A tabela estar ordenada ou não, e de que forma está ordenada, também são aspectos que facilitam ou complicam a nossa vida no momento da pesquisa.
+
+Assim como essa, existem muitas outras aplicações, como:
+
+►Agenda de compromissos ordenada por datas de compromissos.
+
+►Clientes ordenados por código ou nome.
+
+►Relatório da folha de pagamento ordenado por nome ou por salário.
+
+O gestor pode querer saber quem está ganhando mais e na ordem decrescente.
+
+►O professor quer a relação de alunos por ordem de média decrescente.
+Muitas são as aplicações, e praticamente tudo envolve ordenação para facilitar o tempo da busca de uma informação.
+
+Para auxiliar a sua compreensão e a comparação entre alguns dos métodos de ordenação estudados, utilize o Simulador de Métodos de Ordenação para realizar testes com os dados de forma aleatória, decrescente e crescente.
+
+No simulador, é possível testar:
+
+
+►Um único método de ordenação isoladamente;
+►Todos os métodos em uma única forma de inserção de dados (em coluna);
+►um método com todos os tipos de entrada (em coluna);
+►todos os métodos e formas de entrada juntos.
+

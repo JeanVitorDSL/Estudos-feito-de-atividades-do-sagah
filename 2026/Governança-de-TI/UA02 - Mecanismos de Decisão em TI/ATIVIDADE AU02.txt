@@ -1,0 +1,165 @@
+ATIVIDADE AU02
+
+APRESENTAÇÃO
+
+Você, no seu cotidiano, tem a possibilidade de tomar diversas decisões sobre as atividades que deseja realizar, não é isso? No âmbito empresarial, os riscos trazidos por uma decisão tomada de forma equivocada podem acarretar diversas consequências negativas para o negócio e até mesmo levar a empresa à falência. Por isso, é importante que mecanismos de tomada de decisão sejam colocados em prática.
+
+Nesta Unidade de Aprendizagem você verá algunsconceitos que norteiam a tomada de decisão em uma empresa, assim como uma das formas de mensurar quem irá tomá-la e qual decisão será adotada em determinada circunstância, por meio do uso da Matriz de Arranjo de Governança de TI.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Reconhecer o que são os mecanismos de decisão.
+
+    Identificar como as decisões são tomadas em um contexto corporativo a partir da governança de TI.
+
+    Listar os principais critérios e mecanismos de decisão em TI.
+
+INFOGRAFICO 
+
+Os autores Weill e Ross (2006) implementaram uma matriz denominada Matriz de Arranjo de Governança de TI, que aborda as questões que envolvem quais são as decisões que devem ser tomadas e quem deve tomá-las. 
+
+Essa matriz permite a relação entre cinco decisões-chave, são elas:
+- Decisões sobre os princípios de TI
+- Decisões sobre arquitetura de TI
+- Decisões sobre infraestrutura de TI
+- Decisões sobre necessidades
+- Decisões sobre investimentos e priorização de TI
+
+No Infográfico a seguir, você verá mais detalhes sobre este conjunto de cinco aspectos relacionados a TI.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/b1dae6d0-a0e1-4921-aac9-a11672b34bb9/cca1e603-3240-4e9e-af47-5965dd0e64fb.jpg
+
+
+
+CONTEUDO DO LIVRO
+PDF SALVO NA PASTA
+
+EXERCICIOS 
+
+O processo decisório passou por diversas mudanças. Dessa forma, assinale a alternativa que relata fatos atuais sobre essa evolução.
+
+Selecione a resposta:
+a
+
+Atualmente é visto como uma abordagem incremental.
+b
+
+Atualmente é visto como interativo.
+c
+
+Atualmente é visto como idealizado.
+d
+
+Atualmente é visto como compartilhado.
+e
+
+Atualmente é visto como limitado.
+
+---
+
+O que os aspectos estratégicos, operacionais, de relatórios, de conformidade e de salvaguarda de ativos podem representar?
+
+Selecione a resposta:
+a
+
+Os objetivos acerca dos aspectos operacionais e de recursos humanos.
+b
+
+Os objetivos acerca do ambiente interno.
+c
+
+Os objetivos acerca da identificação de eventos.
+d
+
+Os objetivos acerca da definição de objetivos.
+e
+
+Os objetivos de uma organização diante do processo decisório.
+
+---
+
+Quais são os oito componentes que contribuem para a formulação de planos de gerenciamento do risco empresarial?
+
+Selecione a resposta:
+a
+
+Princípios de TI, avaliação de riscos, infraestrutura em TI, monarquia de TI, resposta ao risco, identificação de eventos, definição de investimentos, necessidades de aplicações.
+b
+
+Avaliação dos riscos, resposta ao risco, identificação de eventos, definição de objetivos, ambiente interno, monitoramento, informação e comunicação, atividades de controle.
+c
+
+Monarquia do negócio, monarquia de TI, feudal, federal, duopólio de TI, infraestrutura de TI, governança de TI, responsabilidades de TI.
+d
+
+Avaliação dos riscos, resposta ao risco, identificação de eventos, definição de objetivos, princípios de TI, monarquia de negócio, monarquia de TI, duopólio.
+e
+
+Aplicações de TI, infraestrutura de TI, metas de desempenho do negócio, organização de TI, avaliação de riscos, monarquia de negócio, duopólio, feudal.
+
+---
+
+
+
+Os mecanismos de decisão devem estar associados ao alinhamento estratégico de uma organização. Assinale a alternativa que remete aos profissionais de TI responsáveis pelas decisões de TI.
+
+Selecione a resposta:
+a
+
+Monarquia de negócio.
+b
+
+Feudalismo.
+c
+
+Federalismo.
+d
+
+Monarquia da TI.
+e
+
+Duopólio de TI. 
+
+---
+
+As decisões sobre a aprovação de projetos e as técnicas utilizadas dizem respeito a qual aspecto?
+
+Selecione a resposta:
+a
+
+Feudalismo.
+b
+
+Anarquia.
+c
+
+Investimentos e priorização de TI.
+d
+
+Princípios de TI.
+e
+
+Federalismo.
+
+---
+
+NA PRATICA
+
+Geralmente, os procedimentos de uma empresa envolvem documentações, ou até mesmo diversas reuniões. Na tomada de decisão, além do que foi citado, é comum que uma matriz seja preenchida, onde o intuito é responder quem irá tomar as decisões e quais decisões serão tomadas.
+
+Devemos lembrar que geralmente são muitos processos sendo executados ao mesmo tempo, e que teremos diversos setores diferentes desenvolvendo suas atividades. Por isso, essa matriz pode ser uma ferramenta importante para a tomada de decisões. 
+
+Veja abaixo o Procedimento metodológico para esses mecanismos:
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/1905dbfc-2c72-4ee4-b366-ac4dadb18ef7/3c685793-e76f-4255-a150-c00da83baaf3.jpg
+
+AUDIO DO PROFESSOR
+
+https://creator-files.plataforma.grupoa.education/undefined/14356_Mecanismos_de_decisa_o_em_TI-2026-08-14T15:29:18-03:00.mp3
+
+RESUMO DA UA
+
+
+
+

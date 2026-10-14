@@ -1,0 +1,212 @@
+APRESENTAÇÃO 
+
+Atualmente temos diversos deveres e direitos perante as nossas ações e comportamentos desempenhados dentro sociedade, não é verdade? Dessa forma, no contexto corporativo e nas suas respectivas atividades de negócio, existem também inúmeras leis e regras que regulamentam essas atividades. Neste sentido, quando a Governança em TI é aplicada, traz consigo outras novas regras e normas regulamentárias de suas funções.
+
+Nesta Unidade de Aprendizagem, você verá os principaismarcos regulamentários da Governança em TIe aprenderá sobre as principais leis que regem as ações da Governança em TI dentro de um contexto corporativo.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    Descrever os principais norteadores dos regulamentos existentes da Governança em TI.
+
+    Reconhecer as regulamentações de compliance.
+
+    Analisar as implicações do Sarbanes-Oxley Act.
+
+INFOGRAFICO
+
+O universo corporativo empresarial nos traz diversas possibilidades, dentre elas as de ação, que envolvem a execução de diversas atividades simultaneamente, e que quando bem executadas retornam lucros muito atrativos. Para isso é importante que hajam regulamentações que garantam a execução dessas atividades.
+
+Veja no Infográfico a seguir, um pouco mais sobre a importância da adoção da política de compliance nas organizações empresariais.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/fe67d803-2359-4b42-972a-fea5a5fe28e8/f16effc7-1fa3-4a8a-bef7-c1dda7036bb2.jpg
+
+CONTEUDO DO LIVRO
+
+
+
+Diante das diversas possibilidades que uma empesa tem de se formar e se compor por serviços e produtos que serão disponibilizados para a sociedade, e que, enquanto isso, também será meio de emprego e geração de renda, sejam lucros ou impostos, se faz necessária a presença de meios que regulamentem essas ações, adotadas por meio de uma política de compliance.
+
+Na obra Governança de TI, base teórica desta Unidade de Aprendizagem, leia o capítulo Regulamentações da governança em TI, onde você verá um pouco sobre as métricas trazidas pela adoção da política de compliance, assim como também sobre a lei Sarbanes-Oxley Act.
+
+Boa leitura.
+
+
+NA PASTA EM PDF
+
+EXERCICIOS
+
+ 
+                  Questão 5
+                
+ 
+
+  
+
+  Diante
+ dos mais variados tipos de marcos regulamentários existentes no âmbito 
+empresarial, assinale e alternativa que traz o conceito acerca do Acordo
+ da Basileia II.
+ 
+            Selecione a resposta:
+          
+  a 
+ Estabelece que os auditores sejam independentes e que haja rotatividade entre empresas de auditoria.
+  
+ b 
+ Estabelece a realização periódica de treinamentos e programas de conscientização dos colaboradores.
+  
+ c 
+ Estabelece as responsabilidades corporativas em termos da formação de um comitê de auditoria.
+  
+ d 
+ Estabelece a redução dos riscos institucionais, legais, de imagem e reputacionais a que ela e a alta administração se expõem.
+  
+ e 
+ Estabelece
+ regras para auditorias em instituições financeiras, visando avaliar os 
+métodos de identificação, análise, monitoramento e controle dos riscos.
+
+---
+
+ 
+                  Questão 4
+                
+ 
+
+  
+
+  Uma
+ empresa tem total autonomia para aplicar em sua cultura os costumes que
+ mais se adequarem a seus princípios. Assinale a alternativa em que 
+podemos encontrar um dos objetivos para que a política de compliance seja adotada.
+ 
+            Selecione a resposta:
+          
+  a 
+ Busca
+ armazenar as informações sobre operações passadas, pois elas devem 
+ficar disponíveis por um período de cinco anos para fins de auditoria.
+  
+ b 
+ Busca
+ estabelecer regras para tornar públicas as informações acerca do grau 
+de exposição ao risco ao qual está sujeita uma instituição, face aos 
+resultados obtidos em auditorias.
+  
+ c 
+ Busca fazer com que os dados informados sejam sempre atualizados e corretos.
+  
+ d 
+ Busca adequar o desempenho e as atividades executadas na empresa, à regulação aplicável aos seus negócios.
+  
+ e 
+ Busca estabelecer procedimentos mínimos para o cálculo dos riscos de capital.
+ 
+ ---
+ 
+  
+                  Questão 3
+                
+ 
+
+  
+
+  Assinale
+ a alternativa cujo marco regulamentário traz a definição de penalidades
+ referentes a possíveis crimes que podem ser relacionados ao contexto 
+corporativo, tendo como ponto principal o controle interno da empresa e 
+seus respectivos relatórios que trazem suas atividades financeiras de 
+maneira concisa e clara.
+ 
+            Selecione a resposta:
+          
+  a 
+ Sarbanes-Oxley.
+  
+ b 
+ Basileia II.
+  
+ c 
+ Compliance.
+  
+ d 
+ Lei 12.846/13.
+  
+ e 
+ Lei 12.683/2012.
+ 
+ ---
+ 
+  
+                  Questão 2
+                
+ 
+
+  
+
+  Assinale
+ a alternativa que traz uma política que "faz parte da estrutura da 
+governança corporativa e que tem a proposta de aperfeiçoar o modelo de 
+gestão da organização por meio da prevenção, monitoramento e mitigação 
+de riscos".
+ 
+            Selecione a resposta:
+          
+  a 
+ Basileia II.
+  
+ b 
+ Compliance.
+  
+ c 
+ Sarbanes-Oxley.
+  
+ d 
+ Teoria dos custos de transação.
+  
+ e 
+ Public Company Accounting Oversight Board.
+ 
+ ---
+ 
+  
+                  Questão 1
+                
+ 
+
+  
+
+  As
+ atividades empresariais requerem diversos processos em execução, 
+simultaneamente. Dessa forma, devem ter marcos que regulamentem cada 
+atividade exercida. Assinale a alternativa que traz um marco 
+regulamentário aplicado na Governança de TI.
+ 
+            Selecione a resposta:
+          
+  a 
+ Oxley- Compliance.
+  
+ b 
+ Sarbanes-Compliance.
+  
+ c 
+ Sarbanes-Oxley.
+  
+ d 
+ COSO-Oxley.
+  
+ e 
+ Sarbanes-COSO.
+ 
+ ---
+
+
+PRATICA
+
+É comum que órgãos governamentais retratem pontos importantes em relação à Governança em TI, principalmente quando estamos mencionando ações que estão relacionadas com o contexto corporativo e a aplicação da Governança em TI, dessa forma, veremos como são elencadas, na prática, a avaliação do ambiente de governança e de gestão de TI da organização.
+​​​​​​​​​​​​​​
+https://statics-marketplace.plataforma.grupoa.education/sagah/a97ec4ca-054d-4a09-a383-7d0245ab2f81/1d6f6d9e-860b-4ca4-a313-2fce3e0f4422.jpg
+
+

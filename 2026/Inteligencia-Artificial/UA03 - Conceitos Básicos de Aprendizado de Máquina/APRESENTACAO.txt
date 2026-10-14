@@ -1,0 +1,96 @@
+APRESENTACAO
+
+O aprendizado de máquina é a área da computação que lida com a construção de algoritmos capazes de reconhecer padrões a partir da experiência para melhorar o seu desempenho. A área cresceu de forma acelerada nos últimos anos, em especial, devido aos avanços tecnológicos que possibilitaram o desenvolvimento de algoritmos mais complexos com processamento em menor quantidade de tempo.
+
+As diferentes técnicas de aprendizado de máquina carregam conceitos adaptados de muitas outras áreas, que podem incluir desde a Estatística, com ferramentas de análise de dados, mensuração de erros, probabilidade e assim por diante, até a Biologia, servindo de inspiração para a construção de modelos de evolução e redes neurais. Os exemplos de aplicação são muitos e deixam mais claro o intuito do desenvolvimento de algoritmos capazes de aprender.
+
+Pense, por exemplo, na difícil tarefa de ensinar a um computador todas as regras que ele deverá seguir para guiar um veículo autônomo de maneira segura. É certo que o computador deverá tomar decisões que não podem ser facilmente descritas, como: avaliar irregularidades na pista, antecipar a movimentação de outros objetos, proteger preferencialmente os indivíduos em vez de outros objetos, reconhecer a sinalização de trânsito, adequar sua movimentação a eventuais manutenções e desvios na pista, entre outros.
+
+Nesta Unidade de Aprendizagem, você vai conhecer os conceitos básicos de aprendizado de máquina. A terminologia utilizada é essencial, especialmente pelo envolvimento de conceitos de muitas disciplinas, assim como a abordagem do processo de aprendizado de máquina e as tarefas envolvidas de forma genérica ajudarão você a entender o tema com maior facilidade.
+
+Bons estudos.
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+
+    definir a área de aprendizagem e a sua terminologia;
+    demonstrar o processo de aprendizado de máquina;
+    identificar as tarefas do aprendizado de máquina.
+
+DESAFIO
+
+A base do aprendizado de máquina é o reconhecimento de padrões e o acúmulo de experiência a partir de exemplos e amostras que permitam à máquina testar e inferir soluções cada vez mais próximas da solução que generaliza o modelo ou conjunto de dados para todas as entradas possíveis.
+
+Observe a imagem a seguir e analise o padrão de repetição dos triângulos das formas.
+
+https://statics-marketplace.plataforma.grupoa.education/sagah/3c0a1daf-c64c-47b2-a4a5-0e81b3bd7d57/77acd939-e872-4879-8ddc-4208fdc8995a.jpg
+
+Observe os hexágonos acima. O hexágono 1 possui 6 triângulos; o hexágono 2 possui 24 triângulos; o hexágono 3 possui 54 triângulos e o hexágono 5 possui 150 triângulos. Veja que não são consideradas formações internas, ou seja, somente os triângulos simples foram contabilizados. Considerando o que foi apresentado, qual regra deve ser aplicada para relacionar o índice da forma com a quantidade de triângulos existentes nela e quantos triângulos existem na imagem de índice 10?
+
+
+RESPOSTA 
+
+Regra Geral
+T(n)=6⋅n2
+T(n)=6⋅n2
+Resumo para o Índice 10
+T(10)=6⋅102=600
+T(10)=6⋅102=600
+
+    Fórmula: 6n2
+    6n2
+
+    Resultado (n=10
+    n=10): 600
+
+
+
+INFOGRAFICO
+
+O aprendizado de máquina é um ramo da inteligência artificial amplo, que visa dar condições para que a máquina seja capaz de descrever os dados com base nas características relacionadas. Apesar de existirem muito algoritmos e tipos de aprendizado diferentes, diversos conceitos são comuns a todos esses casos e fundamentais para que se possa compreender cada um deles.
+
+Neste Infográfico, você vai ver um exemplo de conjunto de dados sobre flores, os conceitos envolvidos e como as informações são utilizadas por algoritmos de aprendizado de máquina.
+
+Descrição da imagem não disponível
+
+LIVRO
+
+Um problema pode ser resolvido se o conjunto de hipóteses analisado por uma máquina contiver a solução necessária para isso. Entretanto, simplesmente iterar entre cada uma dessas hipóteses pode demandar tempo demais.
+
+Além disso, as características relevantes que determinam a relação entre os dados de entrada e saída podem não ser tão claras para o desenvolvedor, resultando em regras que utilizam quantidades desnecessárias ou equivocadas delas.
+
+O aprendizado de máquina, por sua vez, busca reduzir o conjunto de hipóteses sem que inferências diretas sejam feitas pelo desenvolvedor. Em vez de analisar e aprender o conjunto de regras, o papel do desenvolvedor é oferecer meios para que a máquina seja capaz de compreender a dimensão do seu erro e partir de um conjunto de exemplos para tentar corrigi-lo.
+
+No capítulo Introdução à aprendizagem de máquina, da obra Fundamentos de aprendizagem de máquina, você vai conhecer os conceitos de: atributos de entrada e saída, que determinam as características de uma instância da amostra utilizada para prever o valor de saída; treinamento, processo em que a máquina tenta aprender como relacionar de maneira mais eficaz os dados de entrada aos de saída; conjunto de hipóteses, que contém as possibilidades de resolução do problema e deve ser reduzido para conjuntos cada vez menores e mais precisos conforme a máquina aprende; além das tarefas específicas de classificação, regressão e agrupamento.
+
+Boa leitura.
+
+PDF SALVO
+
+EXERCICIO
+
+
+Questão 1
+
+Em aprendizado de máquina, tanto a qualidade quanto a quantidade de informações disponíveis têm impacto direto sobre o resultado do algoritmo. Há situações em que o excesso de amostras, não necessariamente de valores parecidos, pode fazer com que o algoritmo se especialize naquele conjunto de dados e seja incapaz de generalizar suas previsões ou descrições. Essa situação é conhecida como:
+
+Selecione a resposta:
+a
+
+overfitting.
+b
+
+underfitting.
+c
+
+maldição da dimensionalidade.
+d
+
+fundo de escala.
+e
+
+dados desbalanceados.
+
+---
+
+
+
+
